@@ -1,1 +1,95 @@
-//SASS dokumentet, hvor alt style skal være
+//SASS dokumentet, hvor alt style skal være//
+
+body {
+  margin: 0;
+  padding: 0;
+
+  footer {
+    width: 100%;
+    height: 200px;
+    background-color: #293952;
+    position: absolute;
+
+    .footertext {
+      margin-top: 16%;
+    }
+
+        ul {
+          text-decoration: none;
+          font-family: 'Quattrocento Sans', sans-serif;
+          color: white;
+          line-height: 3px;
+          font-weight: bold;
+        }
+
+
+      .social {
+        float: right;
+        margin-right: 10%;
+        margin-top: -20%;
+
+        .fa-facebook {
+          font-size: 35px;
+          background: #3C5A99;
+          color: white;
+          padding: 5px 6px 1px 17px;
+          border-radius: 5px;
+        }
+
+        .fa-linkedin {
+          font-size: 35px;
+          background: #007BB6;
+          color: white;
+          padding: 5px 6px 1px 7px;
+          border-radius: 5px;
+          margin-left: 3px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 766px){ /* Ipad-version */
+
+body {
+
+   footer {
+
+      .footertext {
+       margin-top: 8%;
+      }
+
+      .social {
+        margin-top: -10%;
+      }
+     }
+    }
+   }
+
+@media screen and (min-width: 992px){ /* Desktop-version */
+
+body {
+
+  footer {
+    height: 300px;
+
+    .footertext {
+      font-size: 25px;
+      margin-top: 7%;
+    }
+
+    .social {
+      margin-right: 5%;
+      margin-top: -8%;
+
+    .fa-facebook {
+      font-size: 50px;
+      padding-left: 20px;
+    }
+
+    .fa-linkedin {
+      font-size: 50px;
+    }
+   }
+  }
+ }
+}
