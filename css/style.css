@@ -1,12 +1,112 @@
 body {
   margin: 0;
   padding: 0;
+  /* Overskrifterne med baggrundsfarve */
+  /* Div for billederne */
+  /* Selve footeren */
+}
+body h1 {
+  background-color: #293952;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 18px;
+  color: white;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  padding-left: 6%;
+}
+body .flexbox {
+  width: 100%;
+  /* Selve billederne */
+  /* Skriften over billederne */
+  /* Styring af de forskellige tekster til de forskellige billeder */
+}
+body .flexbox .p {
+  width: 40%;
+  padding: 5% 3% 4% 5%;
+  position: relative;
+  z-index: -2;
+}
+body .flexbox h2 {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 18px 15px;
+  font-size: 13px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  position: absolute;
+  display: block;
+}
+body .flexbox .text1, body .flexbox .text3, body .flexbox .text5, body .flexbox .text7, body .flexbox .text9, body .flexbox .text11, body .flexbox .text13, body .flexbox .text15 {
+  margin-left: 5%;
+}
+body .flexbox .text2, body .flexbox .text4, body .flexbox .text6, body .flexbox .text8, body .flexbox .text10, body .flexbox .text12, body .flexbox .text14, body .flexbox .text16 {
+  margin-left: 54%;
+}
+body .flexbox .text1 {
+  margin-top: -235%;
+}
+body .flexbox .text2 {
+  margin-top: -235%;
+  padding: 7%;
+  padding-right: 17%;
+}
+body .flexbox .text3 {
+  margin-top: -184%;
+  padding: 7%;
+  padding-right: 17%;
+}
+body .flexbox .text4 {
+  margin-top: -184%;
+  padding: 5%;
+  padding-right: 12%;
+}
+body .flexbox .text5 {
+  margin-top: -133%;
+  padding: 6%;
+  padding-right: 5%;
+}
+body .flexbox .text6 {
+  margin-top: -133%;
+  padding: 6%;
+  padding-right: 5%;
+}
+body .flexbox .text7 {
+  margin-top: -84%;
+}
+body .flexbox .text8 {
+  margin-top: -84%;
+}
+body .flexbox .text9 {
+  margin-top: -33%;
+}
+body .flexbox .text10 {
+  margin-top: -33%;
+}
+body .flexbox .text11 {
+  margin-top: -133%;
+  padding: 5%;
+  padding-right: 10%;
+}
+body .flexbox .text12 {
+  margin-top: -133%;
+}
+body .flexbox .text13 {
+  margin-top: -85%;
+}
+body .flexbox .text14 {
+  margin-top: -85%;
+}
+body .flexbox .text15 {
+  margin-top: -33%;
+}
+body .flexbox .text16 {
+  margin-top: -33%;
 }
 body footer {
   width: 100%;
   height: 200px;
   background-color: #293952;
   position: absolute;
+  /* Teksten i footeren */
+  /*De to logoer */
 }
 body footer .footertext {
   margin-top: 16%;

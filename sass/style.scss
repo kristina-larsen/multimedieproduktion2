@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
 
-  Header{
+  header{
 
     button{
 
@@ -17,12 +17,133 @@ body {
     }
   }
 
+/* Overskrifterne med baggrundsfarve */
+  h1 {
+    background-color: #293952;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 18px;
+    color: white;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 6%;
+  }
+
+/* Div for billederne */
+.flexbox {
+  width: 100%;
+
+/* Selve billederne */
+  .p {
+    width: 40%;
+    padding: 5% 3% 4% 5%;
+    position: relative;
+    z-index: -2;
+}
+
+/* Skriften over billederne */
+h2 {
+  background-color: rgba(255,255,255, 0.7);
+  padding: 18px 15px;
+  font-size: 13px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  position: absolute;
+  display: block;
+ }
+
+/* Styring af de forskellige tekster til de forskellige billeder */
+.text1, .text3, .text5, .text7, .text9, .text11, .text13, .text15 {
+  margin-left: 5%;
+}
+
+.text2, .text4, .text6, .text8, .text10, .text12, .text14, .text16 {
+  margin-left: 54%;
+}
+
+ .text1 {
+   margin-top: -235%;
+ }
+
+ .text2 {
+   margin-top: -235%;
+   padding: 7%;
+   padding-right: 17%;
+ }
+
+ .text3 {
+   margin-top: -184%;
+   padding: 7%;
+   padding-right: 17%;
+ }
+
+ .text4 {
+   margin-top: -184%;
+   padding: 5%;
+   padding-right: 12%;
+ }
+
+ .text5 {
+   margin-top: -133%;
+   padding: 6%;
+   padding-right: 5%;
+ }
+
+ .text6 {
+   margin-top: -133%;
+   padding: 6%;
+   padding-right: 5%;
+ }
+
+ .text7 {
+   margin-top: -84%;
+ }
+
+ .text8 {
+   margin-top: -84%;
+ }
+
+ .text9 {
+   margin-top: -33%;
+ }
+
+ .text10 {
+   margin-top: -33%;
+ }
+
+ .text11 {
+   margin-top: -133%;
+   padding: 5%;
+   padding-right: 10%;
+ }
+
+ .text12 {
+   margin-top: -133%;
+ }
+
+ .text13 {
+   margin-top: -85%;
+ }
+
+ .text14 {
+   margin-top: -85%;
+ }
+
+ .text15 {
+   margin-top: -33%;
+ }
+
+ .text16 {
+   margin-top: -33%;
+ }
+}
+
+/* Selve footeren */
   footer {
     width: 100%;
     height: 200px;
     background-color: #293952;
     position: absolute;
 
+  /* Teksten i footeren */
     .footertext {
       margin-top: 16%;
     }
@@ -35,7 +156,7 @@ body {
           font-weight: bold;
         }
 
-
+     /*De to logoer */
       .social {
         float: right;
         margin-right: 10%;
