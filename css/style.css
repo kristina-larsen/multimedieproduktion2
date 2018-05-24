@@ -37,11 +37,6 @@ body Header div Form {
   width: 100%;
   height: 40px;
 }
-body Header div Form h2 {
-  padding: 1%;
-  margin-left: 5%;
-  color: white;
-}
 body Header div Form div {
   border: none;
   background-color: white;
