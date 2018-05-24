@@ -1,11 +1,112 @@
+@charset "UTF-8";
 body {
   margin: 0;
   padding: 0;
+  /*hamburger menu starter her*/
+  /*fjerner navigations*/
   /* Overskrifterne med baggrundsfarve */
   /* Div for billederne */
   /* Selve footeren */
 }
+body Header {
+  clear: both;
+  width: 100%;
+  height: 100px;
+  background-color: #e6e6e6;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+body Header div {
+  /*menuen slutter her*/
+}
+body Header div a img {
+  margin: 3%;
+  float: left;
+  width: 10%;
+  text-decoration: none;
+}
+body Header div .tekst {
+  text-align: center;
+  text-decoration: none;
+  color: #293952;
+  font-family: 'Quattrocento Sans', sans-serif solid;
+}
+body Header div Form {
+  height: 60px;
+}
+body Header div Form h2 {
+  padding: 1%;
+  margin-left: 5%;
+  color: white;
+}
+body Header div .navi {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+  text-decoration: none;
+  /*hvordan ser indholdet ud i hamburgermenuen*/
+  /*position af x/lukke knappen i menuen*/
+}
+body Header div .navi .overlayer {
+  position: relative;
+  top: 5%;
+  text-align: left;
+  font-size: 10%;
+  margin-top: 30px;
+  text-decoration: none;
+  /*hvordan linkene ser ud i overlay*/
+  /*giver farve nÃ¥r der holdes over indholdet*/
+}
+body Header div .navi .overlayer a {
+  padding: 6px;
+  left: 5%;
+  text-decoration: none;
+  font-size: 30px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+body Header div .navi .overlayer .linje {
+  border-top: 2px white solid;
+  width: 100%;
+  padding: 0;
+  left: 0;
+  margin: 2% 0;
+}
+body Header div .navi .overlayer :hover :focus {
+  color: #f1f1f1;
+}
+body Header div .navi .closebut {
+  position: absolute;
+  right: 5%;
+  padding: 0;
+  font-size: 60px;
+  text-decoration: none;
+  color: #87aa44;
+}
+body Header div span {
+  display: block;
+  font-size: 140%;
+  color: red;
+  cursor: pointer;
+  float: right;
+  margin: 3% 3% 0 0;
+}
+body nav {
+  display: none;
+}
+body button {
+  display: none;
+}
 body h1 {
+  clear: both;
   background-color: #293952;
   font-family: 'Quattrocento Sans', sans-serif;
   font-size: 18px;

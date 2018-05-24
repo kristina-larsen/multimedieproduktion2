@@ -19,9 +19,42 @@
 
 <body>
   <header>
+<div>
     <!--logo-->
+    <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+    <a class="tekst" href="index.html">Køge Kommune</a>
+
 
     <!--søgefelt-->
+  <!--  <input type="text" placeholder="search">
+    <button type="submit"><i class="fa fa-search"></i></button>-->
+    <form action="mailto:email@email.com" method="post" autocomplete="on">
+  <!-- <h2>Søg efter billetter</h2> -->
+
+  <div>
+    <input type="search" name="search" placeholder="Søg">
+    <button type="submit" class="submit"><i class="fas fa-search"></i></button>
+  </div>
+
+</form>
+    <!--Burgermenu-->
+    <!-- <div> -->
+    <div id=mynav class=navi> <!--yderste lag-->
+      <a href="javascript:void(0)" class="closebut" onclick="closeNav()">&times;</a> <!-- knap til at lukke nav-->
+
+      <div class="overlayer"> <!--indhold i yderste lag-->
+        <a href="">1</a>
+        <a href="">2</a>
+        <a href="">3</a>
+        <a href="">4</a>
+        <a href=""></a>
+      </div>
+
+    </div>
+
+    <span onclick="openNav()">☰</span> <!--open nav-->
+
+  </div>
 
     <!--selvbetjeningsknap-->
     <button type="button" name="button"></button>
@@ -105,6 +138,10 @@
 </class>
 
 </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="javascript/jquery-3.3.1.min.js"></script>
+<script src="javascript/javascript.js"></script>
 
 </body>
 
