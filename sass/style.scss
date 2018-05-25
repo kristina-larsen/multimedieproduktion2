@@ -5,7 +5,7 @@ body {
   padding: 0;
 
   /*hamburger menu starter her*/
-Header{
+header{
 //  position: absolute;
   clear: both;
   width: 100%;
@@ -19,6 +19,8 @@ div{
   //float: left;
 
   a{
+    margin-top: 20%;
+
       img{
         //height: 50px;
         margin: 3%;
@@ -33,14 +35,15 @@ div{
       text-align: center;
       text-decoration: none;
       color: #293952;
+      margin-top: 20%;
       font-family: 'Quattrocento Sans', sans-serif solid;
     }
 
-    Form{
-      clear: both;
-      width: 100%;
+    form{
+      width: 50%;
       //background-color: #185970;
       height: 40px;
+      margin-top: 6%;
       // margin-top: 6%;
 
         // h2{
@@ -53,11 +56,12 @@ div{
         div{
           border: none;
           background-color: white;
-          margin: 12px 15%;
+          margin: 0% 20%;
           // margin-top: 12px;
-          height: 20px;
+          height: 25px;
           position: absolute;
-          width: 70%;
+          width: 60%;
+          text-align: center;
 
         input{
           width: 82%;
@@ -148,10 +152,10 @@ div{
 span{
   display: block;
   font-size: 140%;
-  color: red;
+  color: #293952;
   cursor: pointer;
   float: right;
-  margin: 3% 3% 0 0;
+  margin: -18% 3% 0 0;
   }
   /*menuen slutter her*/
   }

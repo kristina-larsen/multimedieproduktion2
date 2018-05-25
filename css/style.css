@@ -8,7 +8,7 @@ body {
   /* Div for billederne */
   /* Selve footeren */
 }
-body Header {
+body header {
   clear: both;
   width: 100%;
   height: 100px;
@@ -16,42 +16,47 @@ body Header {
   text-decoration: none;
   display: block;
 }
-body Header div {
+body header div {
   /*menuen slutter her*/
 }
-body Header div a img {
+body header div a {
+  margin-top: 20%;
+}
+body header div a img {
   margin: 3%;
   margin-bottom: 0;
   float: left;
   width: 10%;
   text-decoration: none;
 }
-body Header div .tekst {
+body header div .tekst {
   text-align: center;
   text-decoration: none;
   color: #293952;
+  margin-top: 20%;
   font-family: 'Quattrocento Sans', sans-serif solid;
 }
-body Header div Form {
-  clear: both;
-  width: 100%;
+body header div form {
+  width: 50%;
   height: 40px;
+  margin-top: 6%;
 }
-body Header div Form div {
+body header div form div {
   border: none;
   background-color: white;
-  margin: 12px 15%;
-  height: 20px;
+  margin: 0% 20%;
+  height: 25px;
   position: absolute;
-  width: 70%;
+  width: 60%;
+  text-align: center;
 }
-body Header div Form div input {
+body header div form div input {
   width: 82%;
   height: 20px;
   border: none;
   font-size: 16px;
 }
-body Header div Form div button {
+body header div form div button {
   height: 100%;
   width: 8%;
   right: 0;
@@ -62,10 +67,10 @@ body Header div Form div button {
   cursor: pointer;
   float: right;
 }
-body Header div Form div button .submit {
+body header div form div button .submit {
   width: 50%;
 }
-body Header div .navi {
+body header div .navi {
   height: 100%;
   width: 0;
   position: fixed;
@@ -74,12 +79,13 @@ body Header div .navi {
   right: 0;
   background-color: rgba(0, 0, 0, 0.9);
   overflow-x: hidden;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none;
   /*hvordan ser indholdet ud i hamburgermenuen*/
   /*position af x/lukke knappen i menuen*/
 }
-body Header div .navi .overlayer {
+body header div .navi .overlayer {
   position: relative;
   top: 5%;
   text-align: left;
@@ -89,26 +95,27 @@ body Header div .navi .overlayer {
   /*hvordan linkene ser ud i overlay*/
   /*giver farve nÃ¥r der holdes over indholdet*/
 }
-body Header div .navi .overlayer a {
+body header div .navi .overlayer a {
   padding: 6px;
   left: 5%;
   text-decoration: none;
   font-size: 30px;
   color: #ffffff;
   display: block;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-body Header div .navi .overlayer .linje {
+body header div .navi .overlayer .linje {
   border-top: 2px white solid;
   width: 100%;
   padding: 0;
   left: 0;
   margin: 2% 0;
 }
-body Header div .navi .overlayer :hover :focus {
+body header div .navi .overlayer :hover :focus {
   color: #f1f1f1;
 }
-body Header div .navi .closebut {
+body header div .navi .closebut {
   position: absolute;
   right: 5%;
   padding: 0;
@@ -116,13 +123,13 @@ body Header div .navi .closebut {
   text-decoration: none;
   color: #87aa44;
 }
-body Header div span {
+body header div span {
   display: block;
   font-size: 140%;
-  color: red;
+  color: #293952;
   cursor: pointer;
   float: right;
-  margin: 3% 3% 0 0;
+  margin: -18% 3% 0 0;
 }
 body nav {
   display: none;
