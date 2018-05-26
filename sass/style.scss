@@ -183,7 +183,7 @@ button{
   }
 
 /* Div for billederne */
-.flexbox {
+.flexbox, .flexbox2 {
   width: 100%;
 
 /* Selve billederne */
@@ -197,7 +197,10 @@ button{
 /* Skriften over billederne */
 h2 {
   background-color: rgba(255,255,255, 0.7);
-  padding: 18px 15px;
+  width: 25%;
+  height: 7%;
+  padding-top: 5%;
+  padding-left: 5%;
   font-size: 13px;
   font-family: 'Quattrocento Sans', sans-serif;
   position: absolute;
@@ -213,80 +216,36 @@ h2 {
   margin-left: 54%;
 }
 
- .text1 {
-   margin-top: -235%;
- }
+.text1, .text2 {
+  margin-top: -235%;
+}
 
- .text2 {
-   margin-top: -235%;
-   padding: 7%;
-   padding-right: 17%;
- }
+.text3, .text4 {
+  margin-top: -184%;
+}
 
- .text3 {
-   margin-top: -184%;
-   padding: 7%;
-   padding-right: 17%;
- }
+.text5, .text6 {
+  margin-top: -133%;
+}
 
- .text4 {
-   margin-top: -184%;
-   padding: 5%;
-   padding-right: 12%;
- }
+.text7, .text8 {
+  margin-top: -84%;
+}
 
- .text5 {
-   margin-top: -133%;
-   padding: 6%;
-   padding-right: 5%;
- }
+.text9, .text10 {
+  margin-top: -33%;
+}
 
- .text6 {
-   margin-top: -133%;
-   padding: 6%;
-   padding-right: 5%;
- }
+.text11, .text12 {
+  margin-top: -133%;
+}
 
- .text7 {
-   margin-top: -84%;
- }
+.text13, .text14 {
+  margin-top: -85%;
+}
 
- .text8 {
-   margin-top: -84%;
- }
-
- .text9 {
-   margin-top: -33%;
- }
-
- .text10 {
-   margin-top: -33%;
- }
-
- .text11 {
-   margin-top: -133%;
-   padding: 5%;
-   padding-right: 10%;
- }
-
- .text12 {
-   margin-top: -133%;
- }
-
- .text13 {
-   margin-top: -85%;
- }
-
- .text14 {
-   margin-top: -85%;
- }
-
- .text15 {
-   margin-top: -33%;
- }
-
- .text16 {
-   margin-top: -33%;
+.text15, .text16 {
+  margin-top: -33%;
  }
 }
 
@@ -340,6 +299,26 @@ h2 {
 
 body {
 
+  h1 {
+    font-size: 28px;
+  }
+
+.flexbox, .flexbox2 {
+
+  /* Skriften over billederne */
+  h2 {
+    font-size: 24px;
+    width: 25%;
+    height: 8.5%;
+    padding-top: 5%;
+    padding-left: 5%;
+   }
+
+  .text2, .text4, .text6, .text8, .text10, .text12, .text14, .text16 {
+    margin-left: 53%;
+  }
+}
+
    footer {
 
       .footertext {
@@ -356,6 +335,21 @@ body {
 @media screen and (min-width: 992px){ /* Desktop-version */
 
 body {
+
+  h1 {
+    background-color: #ECEEF2;
+  }
+
+    .flexbox {
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+
+      .p {
+        width: 20%;
+        height: 20%;
+      }
+    }
 
   footer {
     height: 300px;

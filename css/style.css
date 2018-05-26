@@ -147,90 +147,57 @@ body h1 {
   padding-bottom: 4%;
   padding-left: 6%;
 }
-body .flexbox {
+body .flexbox, body .flexbox2 {
   width: 100%;
   /* Selve billederne */
   /* Skriften over billederne */
   /* Styring af de forskellige tekster til de forskellige billeder */
 }
-body .flexbox .p {
+body .flexbox .p, body .flexbox2 .p {
   width: 40%;
   padding: 5% 3% 4% 5%;
   position: relative;
   z-index: -2;
 }
-body .flexbox h2 {
+body .flexbox h2, body .flexbox2 h2 {
   background-color: rgba(255, 255, 255, 0.7);
-  padding: 18px 15px;
+  width: 25%;
+  height: 7%;
+  padding-top: 5%;
+  padding-left: 5%;
   font-size: 13px;
   font-family: 'Quattrocento Sans', sans-serif;
   position: absolute;
   display: block;
 }
-body .flexbox .text1, body .flexbox .text3, body .flexbox .text5, body .flexbox .text7, body .flexbox .text9, body .flexbox .text11, body .flexbox .text13, body .flexbox .text15 {
+body .flexbox .text1, body .flexbox .text3, body .flexbox .text5, body .flexbox .text7, body .flexbox .text9, body .flexbox .text11, body .flexbox .text13, body .flexbox .text15, body .flexbox2 .text1, body .flexbox2 .text3, body .flexbox2 .text5, body .flexbox2 .text7, body .flexbox2 .text9, body .flexbox2 .text11, body .flexbox2 .text13, body .flexbox2 .text15 {
   margin-left: 5%;
 }
-body .flexbox .text2, body .flexbox .text4, body .flexbox .text6, body .flexbox .text8, body .flexbox .text10, body .flexbox .text12, body .flexbox .text14, body .flexbox .text16 {
+body .flexbox .text2, body .flexbox .text4, body .flexbox .text6, body .flexbox .text8, body .flexbox .text10, body .flexbox .text12, body .flexbox .text14, body .flexbox .text16, body .flexbox2 .text2, body .flexbox2 .text4, body .flexbox2 .text6, body .flexbox2 .text8, body .flexbox2 .text10, body .flexbox2 .text12, body .flexbox2 .text14, body .flexbox2 .text16 {
   margin-left: 54%;
 }
-body .flexbox .text1 {
+body .flexbox .text1, body .flexbox .text2, body .flexbox2 .text1, body .flexbox2 .text2 {
   margin-top: -235%;
 }
-body .flexbox .text2 {
-  margin-top: -235%;
-  padding: 7%;
-  padding-right: 17%;
-}
-body .flexbox .text3 {
+body .flexbox .text3, body .flexbox .text4, body .flexbox2 .text3, body .flexbox2 .text4 {
   margin-top: -184%;
-  padding: 7%;
-  padding-right: 17%;
 }
-body .flexbox .text4 {
-  margin-top: -184%;
-  padding: 5%;
-  padding-right: 12%;
-}
-body .flexbox .text5 {
+body .flexbox .text5, body .flexbox .text6, body .flexbox2 .text5, body .flexbox2 .text6 {
   margin-top: -133%;
-  padding: 6%;
-  padding-right: 5%;
 }
-body .flexbox .text6 {
-  margin-top: -133%;
-  padding: 6%;
-  padding-right: 5%;
-}
-body .flexbox .text7 {
+body .flexbox .text7, body .flexbox .text8, body .flexbox2 .text7, body .flexbox2 .text8 {
   margin-top: -84%;
 }
-body .flexbox .text8 {
-  margin-top: -84%;
-}
-body .flexbox .text9 {
+body .flexbox .text9, body .flexbox .text10, body .flexbox2 .text9, body .flexbox2 .text10 {
   margin-top: -33%;
 }
-body .flexbox .text10 {
-  margin-top: -33%;
-}
-body .flexbox .text11 {
-  margin-top: -133%;
-  padding: 5%;
-  padding-right: 10%;
-}
-body .flexbox .text12 {
+body .flexbox .text11, body .flexbox .text12, body .flexbox2 .text11, body .flexbox2 .text12 {
   margin-top: -133%;
 }
-body .flexbox .text13 {
+body .flexbox .text13, body .flexbox .text14, body .flexbox2 .text13, body .flexbox2 .text14 {
   margin-top: -85%;
 }
-body .flexbox .text14 {
-  margin-top: -85%;
-}
-body .flexbox .text15 {
-  margin-top: -33%;
-}
-body .flexbox .text16 {
+body .flexbox .text15, body .flexbox .text16, body .flexbox2 .text15, body .flexbox2 .text16 {
   margin-top: -33%;
 }
 body footer {
@@ -274,6 +241,22 @@ body footer .social .fa-linkedin {
 
 @media screen and (min-width: 766px) {
   /* Ipad-version */
+  body h1 {
+    font-size: 28px;
+  }
+  body .flexbox, body .flexbox2 {
+    /* Skriften over billederne */
+  }
+  body .flexbox h2, body .flexbox2 h2 {
+    font-size: 24px;
+    width: 25%;
+    height: 8.5%;
+    padding-top: 5%;
+    padding-left: 5%;
+  }
+  body .flexbox .text2, body .flexbox .text4, body .flexbox .text6, body .flexbox .text8, body .flexbox .text10, body .flexbox .text12, body .flexbox .text14, body .flexbox .text16, body .flexbox2 .text2, body .flexbox2 .text4, body .flexbox2 .text6, body .flexbox2 .text8, body .flexbox2 .text10, body .flexbox2 .text12, body .flexbox2 .text14, body .flexbox2 .text16 {
+    margin-left: 53%;
+  }
   body footer .footertext {
     margin-top: 8%;
   }
@@ -283,6 +266,23 @@ body footer .social .fa-linkedin {
 }
 @media screen and (min-width: 992px) {
   /* Desktop-version */
+  body h1 {
+    background-color: #ECEEF2;
+  }
+  body .flexbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  body .flexbox .p {
+    width: 20%;
+    height: 20%;
+  }
   body footer {
     height: 300px;
   }
