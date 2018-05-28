@@ -283,6 +283,106 @@ body footer .social .fa-linkedin {
     width: 20%;
     height: 20%;
   }
+  body .knap {
+    width: 50px;
+    height: 50px;
+    background: white;
+    position: absolute;
+    left: 25%;
+    bottom: -25px;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  body .knap i {
+    height: 25px;
+    width: 50px;
+    padding-left: 35%;
+    padding-top: 8%;
+    font-size: 23px;
+  }
+  body .mercoverlay {
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    display: none;
+    position: absolute;
+    bottom: 0;
+  }
+  body .mercoverlay .control_prev {
+    position: absolute;
+    top: 210px;
+    left: 5%;
+    text-decoration: none;
+    font-size: 60px;
+    font-family: Roboto;
+    color: black;
+  }
+  body .mercoverlay .control_next {
+    position: absolute;
+    top: 210px;
+    right: 5%;
+    text-decoration: none;
+    font-size: 60px;
+    font-family: Roboto;
+    color: black;
+  }
+  body .mercoverlay .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Roboto;
+    color: black;
+  }
+  body .mercoverlay #slider {
+    width: 335px;
+    height: 400px;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 20px;
+  }
+  body .mercoverlay #slider .slides {
+    display: block;
+    width: 3015px;
+    height: 400px;
+  }
+  body .mercoverlay #slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 325px;
+    height: 400px;
+    margin: 0 5px;
+  }
+  body .mercoverlay #slider .slide img {
+    width: 100%;
+    height: auto;
+  }
+  body .mercoverlay #slider .slide p {
+    font-family: Istok Web;
+    text-align: center;
+    margin-top: 10px;
+    color: grey;
+    text-decoration: none;
+  }
+  body .mercoverlay #slider .slide p:nth-of-type(2) {
+    font-weight: bold;
+    color: black;
+  }
+  body .mercoverlay #slider .left1 {
+    margin-left: -335px;
+  }
+  body .mercoverlay #slider .left2 {
+    margin-left: -670px;
+  }
+  body .mercoverlay #slider .left3 {
+    margin-left: -1005px;
+  }
+  body .mercoverlay #slider .left4 {
+    margin-left: 1340px;
+  }
   body footer {
     height: 300px;
   }
