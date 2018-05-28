@@ -4,41 +4,43 @@ body {
   margin: 0;
   padding: 0;
 
-  /*hamburger menu starter her*/
-header{
+/* Burger-menu starter her */
+header {
 //  position: absolute;
   clear: both;
   width: 100%;
   height: auto;
-  background-color: #e6e6e6;
+  background-color: #ECEEF2;
   text-decoration: none;
   display: block;
 //  text-align: center;
 
-div{
+div {
   //float: left;
 
-  a{
+  a {
     text-decoration: none;
     //margin: 20%;
 
-      img{
+      img {
         //height: 50px;
-        margin: 3%;
+        margin-left: 5%;
+        margin-top: 4%;
         margin-bottom: 0;
         float: left;
-        width: 10%;
+        width: 8.5%;
         text-decoration: none;
         }
 
-        h3{
+        h3 {
         text-decoration: none;
-        width: 200px;
-        font-size: 28px;
+        width: 130px;
+        font-size: 15px;
         color: #293952;
         margin: auto;
         padding-top: 6%;
-        font-family: 'Quattrocento Sans', sans-serif solid;
+        padding-left: 7%;
+        font-family: 'Quattrocento Sans', sans-serif;
         }
       }
 
@@ -51,7 +53,7 @@ div{
     //   font-family: 'Quattrocento Sans', sans-serif solid;
     // }
 
-    form{
+    form {
       clear:both;
       width: 50%;
       //background-color: #185970;
@@ -66,17 +68,19 @@ div{
 
         // }
 
-        div{
+        div {
           border: none;
           background-color: white;
-          margin: 0% 20%;
+          margin: -2% 20%;
           // margin-top: 12px;
           height: 25px;
           position: absolute;
           width: 60%;
           text-align: center;
+          border-radius: 10px;
 
-        input{
+
+        input {
           width: 82%;
           height: 20px;
           border: none;
@@ -84,7 +88,7 @@ div{
           font-size: 16px;
         }
 
-        button{
+        button {
           height: 100%;
           width: 8%;
           right: 0;
@@ -161,24 +165,24 @@ div{
     }
   }
 
-span{
+span {
   display: block;
-  font-size: 250%;
+  font-size: 150%;
   color: #293952;
   cursor: pointer;
   float: right;
-  margin: -8% 3% 0 0;
+  margin: -6% 4% 0 0;
   }
   /*menuen slutter her*/
   }
 }
 
 /*fjerner navigations*/
-nav{
+nav {
   display: none;
 }
 
-button{
+button {
   display: none;
 }
 
@@ -192,15 +196,20 @@ button{
     padding-top: 4%;
     padding-bottom: 4%;
     padding-left: 6%;
+    margin-top: 0;
   }
 
+/* Forside mobil-version */
+
+/*Slideshow på forside */
   .mercoverlay {
     display: none;
   }
 
 /* Div for billederne */
 .flexbox, .flexbox2 {
-  width: 100%;
+  width: 90%;
+  margin-left: 4.5%;
 
 a {
   position: relative;
@@ -208,71 +217,28 @@ a {
 
   /* Selve billederne */
     .p {
-        width: 150px;
-        height: 150px;
-        margin: 5px 13px;
-    }
+        width: 135px;
+        height: 135px;
+        margin: 18px 13px 20px 13px;
+      }
 
     /* Skriften over billederne */
     h2 {
       background-color: rgba(255,255,255, 0.7);
       width: 60%;
-      height: 30%;
-      padding-top: 7%;
+      height: 29%;
+      padding-top: 11%;
       padding-left: 8%;
-      padding-right: 1%;
-      margin: 15% 7%;
-      font-size: 15px;
+      padding-right: 2%;
+      margin: 33% 7% 0% 7%;
+      font-size: 14px;
       font-family: 'Quattrocento Sans', sans-serif;
       position: absolute;
+      text-decoration: none;
+      color: #293952;
     }
   }
 }
-
-
-
-/* Styring af de forskellige tekster til de forskellige billeder */
-/*
-.text1, .text3, .text5, .text7, .text9, .text11, .text13, .text15 {
-  margin-left: 5%;
-}
-
-.text2, .text4, .text6, .text8, .text10, .text12, .text14, .text16 {
-  margin-left: 54%;
-}
-
-.text1, .text2 {
-  margin-top: -235%;
-}
-
-.text3, .text4 {
-  margin-top: -184%;
-}
-
-.text5, .text6 {
-  margin-top: -133%;
-}
-
-.text7, .text8 {
-  margin-top: -84%;
-}
-
-.text9, .text10 {
-  margin-top: -33%;
-}
-
-.text11, .text12 {
-  margin-top: -133%;
-}
-
-.text13, .text14 {
-  margin-top: -85%;
-}
-
-.text15, .text16 {
-  margin-top: -33%;
-}*/
-
 
 /* Selve footeren */
   footer {
@@ -280,6 +246,7 @@ a {
     height: 200px;
     background-color: #293952;
     position: absolute;
+    margin-top: 3%;
 
   /* Teksten i footeren */
     .footertext {
@@ -324,15 +291,19 @@ a {
 
 body {
 
+  /* Tekserne med farve */
   h1 {
     font-size: 28px;
   }
 
+  /* Forside tablet-version */
+
   /* Div for billederne */
   .flexbox, .flexbox2 {
-    width: 100%;
-    margin-left: 4%;
-    margin-right: 4%;
+    width: 90%;
+    margin-left: 6%;
+    margin-right: 5%;
+    margin-bottom: 5%;
 
   a {
     position: relative;
@@ -342,27 +313,29 @@ body {
       .p {
           width: 300px;
           height: 300px;
-          margin: 25px 15px;
-      }
+          margin: 25px 18px;
+        }
 
       /* Skriften over billederne */
       h2 {
         background-color: rgba(255,255,255, 0.7);
         width: 60%;
-        height: 30%;
-        padding-top: 7%;
+        height: 27%;
+        padding-top: 12%;
         padding-left: 8%;
         padding-right: 1%;
-        margin: 15% 7%;
-        font-size: 15px;
+        margin: 31% 4.5%;
+        font-size: 23px;
         font-family: 'Quattrocento Sans', sans-serif;
         position: absolute;
       }
     }
   }
 
+   /* Selve footeren */
    footer {
 
+      /*Teksten i footeren */
       .footertext {
        margin-top: 8%;
       }
@@ -421,167 +394,154 @@ body {
 
   }
 
+  /*Tekstenerne med farve */
   h1 {
     background-color: #ECEEF2;
     color: #293952;
     padding-top: 2.5%;
     padding-bottom: 2.5%;
+    text-align: center;
+    margin-bottom: 0;
   }
 
+/* Forside desktop-version */
+
+    /* Boksen med billederne */
     .flexbox {
       display: none;
     }
 
-    //slider
-    // OVERLAY CSS KNAP
+/* Selve slideshowet */
+.mercoverlay {
+  height: 290px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  bottom: 0;
 
-            .knap{
-              width: 50px;
-              height: 50px;
-              background: white;
-              left: 25%;
-              bottom: -25px;
-              transform: translateX(-50%);
-              border-radius: 50%;
-              overflow: hidden;
+      /* Pilen til venstre */
+      .control_prev{
+        margin-top: 8%;
+        left: 5%;
+        text-decoration: none;
+        font-size: 60px;
+        font-family: Roboto;
+        color: black;
+        z-index: 10;
+      }
 
-              i {
-                height: 25px;
-                width: 50px;
-                padding-left: 35%;
-                padding-top: 20%;
-                font-size: 23px;
-              }
+            /* Pilen til højre */
+            .control_next{
+              margin-top: 8%;
+              right: 5%;
+              text-decoration: none;
+              font-size: 60px;
+              font-family: Roboto;
+              color: black;
+              z-index: 10;
             }
 
-    // OVERLAY CSS
-
-            .mercoverlay {
-              height: 500px;
-              width: 100%;
-              background-color: white;
-              display: flex;
-              overflow: hidden;
-              bottom: 0;
-
-              .control_prev{
-                margin-top: 8%;
-                left: 5%;
-                text-decoration: none;
-                font-size: 60px;
-                font-family: Roboto;
-                color: black;
-                z-index: 10;
-              }
-
-              .control_next{
-                margin-top: 8%;
-                right: 5%;
-                text-decoration: none;
-                font-size: 60px;
-                font-family: Roboto;
-                color: black;
-                z-index: 10;
-              }
-
-              // .close{
-              //   position: absolute;
-              //   top: 10px;
-              //   right: 10px;
-              //   text-decoration: none;
-              //   font-size: 25px;
-              //   font-family: Roboto;
-              //   color: black;
-              // }
-
-
-
-              #slider {
-                width: 1300px;
-                height: 400px;
-                overflow: hidden;
-                margin: auto;
-                margin-top: 10px;
-
-                .slides {
-                  display: block;
-                  width: 5100px;
+                /* Selve slideshowet */
+                #slider {
+                  width: 1300px;
                   height: 400px;
-                  padding: 0%;
+                  overflow: hidden;
+                  margin: auto;
+                  margin-top: 4px;
+
+                    /* Styring af billederne i slideshowet */
+                    .slides {
+                       display: block;
+                       width: 5100px;
+                       height: 300px;
+                       padding: 0%;
+                     }
+
+          /* Billederne i slideshowet */
+          .slide {
+            float: left;
+            list-style-type: none;
+            width: 250px;
+            height: 250px;
+            margin: 0 5px;
+
+/* Skriften over billederne */
+h2 {
+  background-color: rgba(255,255,255, 0.7);
+  width: 10%;
+  height: 10%;
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 1%;
+  font-size: 20px;
+  font-family: 'Quattrocento Sans', sans-serif;
+  position: absolute;
+  margin-top: -13%;
+}
+
+      /* Selve billederne */
+      img {
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
+     }
+
+          /*Mikkel forklar her */
+          .left1 {
+            margin-left: -265px;
+          }
+
+                .left2 {
+                  margin-left: -530px;
                 }
 
-                .slide {
-                  float: left;
-                  list-style-type: none;
-                  width: 250px;
-                  height: 250px;
-                  margin: 0 5px;
-
-                  /* Skriften over billederne */
-                  h2 {
-                    background-color: rgba(255,255,255, 0.7);
-                    width: 10%;
-                    height: 10%;
-                    padding-top: 2%;
-                    padding-left: 2%;
-                    padding-right: 1%;
-                    font-size: 20px;
-                    font-family: 'Quattrocento Sans', sans-serif;
-                    position: absolute;
-                    margin-top: -13%;
-                   }
-
-                  img {
-                    width: 100%;
-                    height: auto;
-                    position: relative;
+                  .left3{
+                    margin-left: -795px;
                   }
 
-                  p {
-                    font-family: Istok Web;
-                    text-align: center;
-                    margin-top: 10px;
-                    color: grey;
-                    text-decoration: none;
-                    position: absolute;
+            .left4 {
+              margin-left: -1060px;
+            }
 
-                    &:nth-of-type(2) {
-                      font-weight: bold;
-                      color: black;
-                    }
-                  }
-                }
+        .left5 {
+          margin-left: -1325px;
+        }
+      }
+    }
 
-                .left1 {
-                  margin-left: -265px;
-                }
+/* Boksen med billederne nederst på desktop */
+.flexbox2 {
+  margin-left: 6%;
+  margin-top: 3%;
 
-                  .left2 {
-                    margin-left: -530px;
-                }
+  a {
+    margin-left: 3%;
 
-                .left3{
-                  margin-left: -795px;
-                }
+    /* Selve billederne */
+    .p {
+      width: 310px;
+      height: 310px;
+    }
 
-                .left4 {
-                  margin-left: -1060px;
-                }
+    /*Teksten over billederne */
+    h2 {
+      margin-left: 4%;
+    }
+  }
+}
 
-                .left5 {
-                  margin-left: -1325px;
-                }
-              }
-            }//slider slut
-
+  /* Selve footeren */
   footer {
     height: 300px;
 
+    /* Teksten i footeren */
     .footertext {
       font-size: 25px;
       margin-top: 7%;
     }
 
+    /* Sociale medier logoer */
     .social {
       margin-right: 5%;
       margin-top: -8%;

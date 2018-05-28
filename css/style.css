@@ -2,58 +2,19 @@
 body {
   margin: 0;
   padding: 0;
-  /*hamburger menu starter her*/
+  /* Burger-menu starter her */
   /*fjerner navigations*/
   /* Overskrifterne med baggrundsfarve */
+  /* Forside mobil-version */
+  /*Slideshow på forside */
   /* Div for billederne */
-  /* Styring af de forskellige tekster til de forskellige billeder */
-  /*
-  .text1, .text3, .text5, .text7, .text9, .text11, .text13, .text15 {
-    margin-left: 5%;
-  }
-  
-  .text2, .text4, .text6, .text8, .text10, .text12, .text14, .text16 {
-    margin-left: 54%;
-  }
-  
-  .text1, .text2 {
-    margin-top: -235%;
-  }
-  
-  .text3, .text4 {
-    margin-top: -184%;
-  }
-  
-  .text5, .text6 {
-    margin-top: -133%;
-  }
-  
-  .text7, .text8 {
-    margin-top: -84%;
-  }
-  
-  .text9, .text10 {
-    margin-top: -33%;
-  }
-  
-  .text11, .text12 {
-    margin-top: -133%;
-  }
-  
-  .text13, .text14 {
-    margin-top: -85%;
-  }
-  
-  .text15, .text16 {
-    margin-top: -33%;
-  }*/
   /* Selve footeren */
 }
 body header {
   clear: both;
   width: 100%;
   height: auto;
-  background-color: #e6e6e6;
+  background-color: #ECEEF2;
   text-decoration: none;
   display: block;
 }
@@ -64,20 +25,22 @@ body header div a {
   text-decoration: none;
 }
 body header div a img {
-  margin: 3%;
+  margin-left: 5%;
+  margin-top: 4%;
   margin-bottom: 0;
   float: left;
-  width: 10%;
+  width: 8.5%;
   text-decoration: none;
 }
 body header div a h3 {
   text-decoration: none;
-  width: 200px;
-  font-size: 28px;
+  width: 130px;
+  font-size: 15px;
   color: #293952;
   margin: auto;
   padding-top: 6%;
-  font-family: 'Quattrocento Sans', sans-serif solid;
+  padding-left: 7%;
+  font-family: 'Quattrocento Sans', sans-serif;
 }
 body header div form {
   clear: both;
@@ -87,11 +50,12 @@ body header div form {
 body header div form div {
   border: none;
   background-color: white;
-  margin: 0% 20%;
+  margin: -2% 20%;
   height: 25px;
   position: absolute;
   width: 60%;
   text-align: center;
+  border-radius: 10px;
 }
 body header div form div input {
   width: 82%;
@@ -168,11 +132,11 @@ body header div .navi .closebut {
 }
 body header div span {
   display: block;
-  font-size: 250%;
+  font-size: 150%;
   color: #293952;
   cursor: pointer;
   float: right;
-  margin: -8% 3% 0 0;
+  margin: -6% 4% 0 0;
 }
 body nav {
   display: none;
@@ -189,12 +153,14 @@ body h1 {
   padding-top: 4%;
   padding-bottom: 4%;
   padding-left: 6%;
+  margin-top: 0;
 }
 body .mercoverlay {
   display: none;
 }
 body .flexbox, body .flexbox2 {
-  width: 100%;
+  width: 90%;
+  margin-left: 4.5%;
 }
 body .flexbox a, body .flexbox2 a {
   position: relative;
@@ -205,27 +171,30 @@ body .flexbox a, body .flexbox2 a {
   /* Skriften over billederne */
 }
 body .flexbox a .p, body .flexbox2 a .p {
-  width: 150px;
-  height: 150px;
-  margin: 5px 13px;
+  width: 135px;
+  height: 135px;
+  margin: 18px 13px 20px 13px;
 }
 body .flexbox a h2, body .flexbox2 a h2 {
   background-color: rgba(255, 255, 255, 0.7);
   width: 60%;
-  height: 30%;
-  padding-top: 7%;
+  height: 29%;
+  padding-top: 11%;
   padding-left: 8%;
-  padding-right: 1%;
-  margin: 15% 7%;
-  font-size: 15px;
+  padding-right: 2%;
+  margin: 33% 7% 0% 7%;
+  font-size: 14px;
   font-family: 'Quattrocento Sans', sans-serif;
   position: absolute;
+  text-decoration: none;
+  color: #293952;
 }
 body footer {
   width: 100%;
   height: 200px;
   background-color: #293952;
   position: absolute;
+  margin-top: 3%;
   /* Teksten i footeren */
   /*De to logoer */
 }
@@ -263,15 +232,19 @@ body footer .social .fa-linkedin {
 @media screen and (min-width: 766px) {
   /* Tablet-version */
   body {
+    /* Tekserne med farve */
+    /* Forside tablet-version */
     /* Div for billederne */
+    /* Selve footeren */
   }
   body h1 {
     font-size: 28px;
   }
   body .flexbox, body .flexbox2 {
-    width: 100%;
-    margin-left: 4%;
-    margin-right: 4%;
+    width: 90%;
+    margin-left: 6%;
+    margin-right: 5%;
+    margin-bottom: 5%;
   }
   body .flexbox a, body .flexbox2 a {
     position: relative;
@@ -284,19 +257,22 @@ body footer .social .fa-linkedin {
   body .flexbox a .p, body .flexbox2 a .p {
     width: 300px;
     height: 300px;
-    margin: 25px 15px;
+    margin: 25px 18px;
   }
   body .flexbox a h2, body .flexbox2 a h2 {
     background-color: rgba(255, 255, 255, 0.7);
     width: 60%;
-    height: 30%;
-    padding-top: 7%;
+    height: 27%;
+    padding-top: 12%;
     padding-left: 8%;
     padding-right: 1%;
-    margin: 15% 7%;
-    font-size: 15px;
+    margin: 31% 4.5%;
+    font-size: 23px;
     font-family: 'Quattrocento Sans', sans-serif;
     position: absolute;
+  }
+  body footer {
+    /*Teksten i footeren */
   }
   body footer .footertext {
     margin-top: 8%;
@@ -307,6 +283,14 @@ body footer .social .fa-linkedin {
 }
 @media screen and (min-width: 992px) {
   /* Desktop-version */
+  body {
+    /*Tekstenerne med farve */
+    /* Forside desktop-version */
+    /* Boksen med billederne */
+    /* Selve slideshowet */
+    /* Boksen med billederne nederst på desktop */
+    /* Selve footeren */
+  }
   body form {
     clear: both;
     width: 50%;
@@ -346,37 +330,23 @@ body footer .social .fa-linkedin {
     color: #293952;
     padding-top: 2.5%;
     padding-bottom: 2.5%;
+    text-align: center;
+    margin-bottom: 0;
   }
   body .flexbox {
     display: none;
   }
-  body .knap {
-    width: 50px;
-    height: 50px;
-    background: white;
-    left: 25%;
-    bottom: -25px;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-    border-radius: 50%;
-    overflow: hidden;
-  }
-  body .knap i {
-    height: 25px;
-    width: 50px;
-    padding-left: 35%;
-    padding-top: 20%;
-    font-size: 23px;
-  }
   body .mercoverlay {
-    height: 500px;
+    height: 290px;
     width: 100%;
     background-color: white;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    overflow: hidden;
     bottom: 0;
+    /* Pilen til venstre */
+    /* Pilen til højre */
+    /* Selve slideshowet */
   }
   body .mercoverlay .control_prev {
     margin-top: 8%;
@@ -401,12 +371,15 @@ body footer .social .fa-linkedin {
     height: 400px;
     overflow: hidden;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 4px;
+    /* Styring af billederne i slideshowet */
+    /* Billederne i slideshowet */
+    /*Mikkel forklar her */
   }
   body .mercoverlay #slider .slides {
     display: block;
     width: 5100px;
-    height: 400px;
+    height: 300px;
     padding: 0%;
   }
   body .mercoverlay #slider .slide {
@@ -416,6 +389,7 @@ body footer .social .fa-linkedin {
     height: 250px;
     margin: 0 5px;
     /* Skriften over billederne */
+    /* Selve billederne */
   }
   body .mercoverlay #slider .slide h2 {
     background-color: rgba(255, 255, 255, 0.7);
@@ -434,18 +408,6 @@ body footer .social .fa-linkedin {
     height: auto;
     position: relative;
   }
-  body .mercoverlay #slider .slide p {
-    font-family: Istok Web;
-    text-align: center;
-    margin-top: 10px;
-    color: grey;
-    text-decoration: none;
-    position: absolute;
-  }
-  body .mercoverlay #slider .slide p:nth-of-type(2) {
-    font-weight: bold;
-    color: black;
-  }
   body .mercoverlay #slider .left1 {
     margin-left: -265px;
   }
@@ -461,8 +423,26 @@ body footer .social .fa-linkedin {
   body .mercoverlay #slider .left5 {
     margin-left: -1325px;
   }
+  body .flexbox2 {
+    margin-left: 6%;
+    margin-top: 3%;
+  }
+  body .flexbox2 a {
+    margin-left: 3%;
+    /* Selve billederne */
+    /*Teksten over billederne */
+  }
+  body .flexbox2 a .p {
+    width: 310px;
+    height: 310px;
+  }
+  body .flexbox2 a h2 {
+    margin-left: 4%;
+  }
   body footer {
     height: 300px;
+    /* Teksten i footeren */
+    /* Sociale medier logoer */
   }
   body footer .footertext {
     font-size: 25px;
