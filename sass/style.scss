@@ -232,15 +232,16 @@ a {
 
 
 /* Styring af de forskellige tekster til de forskellige billeder */
-// .text1, .text3, .text5, .text7, .text9, .text11, .text13, .text15 {
-//   margin-left: 5%;
-// }
-//
-// .text2, .text4, .text6, .text8, .text10, .text12, .text14, .text16 {
-//   margin-left: 54%;
-// }
+/*
+.text1, .text3, .text5, .text7, .text9, .text11, .text13, .text15 {
+  margin-left: 5%;
+}
 
-/*.text1, .text2 {
+.text2, .text4, .text6, .text8, .text10, .text12, .text14, .text16 {
+  margin-left: 54%;
+}
+
+.text1, .text2 {
   margin-top: -235%;
 }
 
@@ -376,6 +377,49 @@ body {
 @media screen and (min-width: 992px){ /* Desktop-version */
 
 body {
+
+  form{
+    clear:both;
+    width: 50%;
+    height: 40px;
+
+
+      div{
+        border: none;
+        background-color: white;
+        margin: 0% 20%;
+        // margin-top: 12px;
+        height: 25px;
+        position: absolute;
+        width: 60%;
+        text-align: center;
+
+      input{
+        width: 82%;
+        height: 20px;
+        border: none;
+        //margin: 7.5px;
+        font-size: 16px;
+      }
+
+      button{
+        height: 100%;
+        width: 8%;
+        right: 0;
+        margin: 0;
+        padding: 0;
+        background: #87aa44;
+        border: none;
+        cursor: pointer;
+        float: right;
+
+          .submit{
+            width: 50%;
+          }
+      }
+      }
+
+  }
 
   h1 {
     background-color: #ECEEF2;

@@ -7,7 +7,16 @@ body {
   /* Overskrifterne med baggrundsfarve */
   /* Div for billederne */
   /* Styring af de forskellige tekster til de forskellige billeder */
-  /*.text1, .text2 {
+  /*
+  .text1, .text3, .text5, .text7, .text9, .text11, .text13, .text15 {
+    margin-left: 5%;
+  }
+  
+  .text2, .text4, .text6, .text8, .text10, .text12, .text14, .text16 {
+    margin-left: 54%;
+  }
+  
+  .text1, .text2 {
     margin-top: -235%;
   }
   
@@ -298,6 +307,40 @@ body footer .social .fa-linkedin {
 }
 @media screen and (min-width: 992px) {
   /* Desktop-version */
+  body form {
+    clear: both;
+    width: 50%;
+    height: 40px;
+  }
+  body form div {
+    border: none;
+    background-color: white;
+    margin: 0% 20%;
+    height: 25px;
+    position: absolute;
+    width: 60%;
+    text-align: center;
+  }
+  body form div input {
+    width: 82%;
+    height: 20px;
+    border: none;
+    font-size: 16px;
+  }
+  body form div button {
+    height: 100%;
+    width: 8%;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    background: #87aa44;
+    border: none;
+    cursor: pointer;
+    float: right;
+  }
+  body form div button .submit {
+    width: 50%;
+  }
   body h1 {
     background-color: #ECEEF2;
     color: #293952;
