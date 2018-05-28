@@ -6,6 +6,38 @@ body {
   /*fjerner navigations*/
   /* Overskrifterne med baggrundsfarve */
   /* Div for billederne */
+  /* Styring af de forskellige tekster til de forskellige billeder */
+  /*.text1, .text2 {
+    margin-top: -235%;
+  }
+  
+  .text3, .text4 {
+    margin-top: -184%;
+  }
+  
+  .text5, .text6 {
+    margin-top: -133%;
+  }
+  
+  .text7, .text8 {
+    margin-top: -84%;
+  }
+  
+  .text9, .text10 {
+    margin-top: -33%;
+  }
+  
+  .text11, .text12 {
+    margin-top: -133%;
+  }
+  
+  .text13, .text14 {
+    margin-top: -85%;
+  }
+  
+  .text15, .text16 {
+    margin-top: -33%;
+  }*/
   /* Selve footeren */
 }
 body header {
@@ -154,53 +186,29 @@ body .mercoverlay {
 }
 body .flexbox, body .flexbox2 {
   width: 100%;
+}
+body .flexbox a, body .flexbox2 a {
+  position: relative;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   /* Selve billederne */
   /* Skriften over billederne */
-  /* Styring af de forskellige tekster til de forskellige billeder */
-  /*.text1, .text2 {
-    margin-top: -235%;
-  }
-  
-  .text3, .text4 {
-    margin-top: -184%;
-  }
-  
-  .text5, .text6 {
-    margin-top: -133%;
-  }
-  
-  .text7, .text8 {
-    margin-top: -84%;
-  }
-  
-  .text9, .text10 {
-    margin-top: -33%;
-  }
-  
-  .text11, .text12 {
-    margin-top: -133%;
-  }
-  
-  .text13, .text14 {
-    margin-top: -85%;
-  }
-  
-  .text15, .text16 {
-    margin-top: -33%;
-  }*/
 }
-body .flexbox .p, body .flexbox2 .p {
-  width: 40%;
-  padding: 5% 3% 4% 5%;
-  z-index: -2;
+body .flexbox a .p, body .flexbox2 a .p {
+  width: 150px;
+  height: 150px;
+  margin: 5px 13px;
 }
 body .flexbox a h2, body .flexbox2 a h2 {
   background-color: rgba(255, 255, 255, 0.7);
-  width: 25%;
-  height: 7%;
-  padding-top: 5%;
-  padding-left: 5%;
-  font-size: 13px;
+  width: 60%;
+  height: 30%;
+  padding-top: 7%;
+  padding-left: 8%;
+  padding-right: 1%;
+  margin: 15% 7%;
+  font-size: 15px;
   font-family: 'Quattrocento Sans', sans-serif;
   position: absolute;
 }
@@ -245,21 +253,41 @@ body footer .social .fa-linkedin {
 
 @media screen and (min-width: 766px) {
   /* Tablet-version */
+  body {
+    /* Div for billederne */
+  }
   body h1 {
     font-size: 28px;
   }
   body .flexbox, body .flexbox2 {
+    width: 100%;
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  body .flexbox a, body .flexbox2 a {
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    /* Selve billederne */
     /* Skriften over billederne */
   }
-  body .flexbox h2, body .flexbox2 h2 {
-    font-size: 24px;
-    width: 25%;
-    height: 8.5%;
-    padding-top: 5%;
-    padding-left: 5%;
+  body .flexbox a .p, body .flexbox2 a .p {
+    width: 300px;
+    height: 300px;
+    margin: 25px 15px;
   }
-  body .flexbox .text2, body .flexbox .text4, body .flexbox .text6, body .flexbox .text8, body .flexbox .text10, body .flexbox .text12, body .flexbox .text14, body .flexbox .text16, body .flexbox2 .text2, body .flexbox2 .text4, body .flexbox2 .text6, body .flexbox2 .text8, body .flexbox2 .text10, body .flexbox2 .text12, body .flexbox2 .text14, body .flexbox2 .text16 {
-    margin-left: 53%;
+  body .flexbox a h2, body .flexbox2 a h2 {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 60%;
+    height: 30%;
+    padding-top: 7%;
+    padding-left: 8%;
+    padding-right: 1%;
+    margin: 15% 7%;
+    font-size: 15px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    position: absolute;
   }
   body footer .footertext {
     margin-top: 8%;

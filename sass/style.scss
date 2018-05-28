@@ -202,27 +202,34 @@ button{
 .flexbox, .flexbox2 {
   width: 100%;
 
-/* Selve billederne */
-  .p {
-    width: 40%;
-    padding: 5% 3% 4% 5%;
-    z-index: -2;
+a {
+  position: relative;
+  display: inline-flex;
+
+  /* Selve billederne */
+    .p {
+        width: 150px;
+        height: 150px;
+        margin: 5px 13px;
+    }
+
+    /* Skriften over billederne */
+    h2 {
+      background-color: rgba(255,255,255, 0.7);
+      width: 60%;
+      height: 30%;
+      padding-top: 7%;
+      padding-left: 8%;
+      padding-right: 1%;
+      margin: 15% 7%;
+      font-size: 15px;
+      font-family: 'Quattrocento Sans', sans-serif;
+      position: absolute;
+    }
+  }
 }
 
-/* Skriften over billederne */
-a {
 
-h2 {
-  background-color: rgba(255,255,255, 0.7);
-  width: 25%;
-  height: 7%;
-  padding-top: 5%;
-  padding-left: 5%;
-  font-size: 13px;
-  font-family: 'Quattrocento Sans', sans-serif;
-  position: absolute;
- }
- }
 
 /* Styring af de forskellige tekster til de forskellige billeder */
 // .text1, .text3, .text5, .text7, .text9, .text11, .text13, .text15 {
@@ -264,7 +271,7 @@ h2 {
 .text15, .text16 {
   margin-top: -33%;
 }*/
-}
+
 
 /* Selve footeren */
   footer {
@@ -320,21 +327,38 @@ body {
     font-size: 28px;
   }
 
-.flexbox, .flexbox2 {
+  /* Div for billederne */
+  .flexbox, .flexbox2 {
+    width: 100%;
+    margin-left: 4%;
+    margin-right: 4%;
 
-  /* Skriften over billederne */
-  h2 {
-    font-size: 24px;
-    width: 25%;
-    height: 8.5%;
-    padding-top: 5%;
-    padding-left: 5%;
-   }
+  a {
+    position: relative;
+    display: inline-flex;
 
-  .text2, .text4, .text6, .text8, .text10, .text12, .text14, .text16 {
-    margin-left: 53%;
+    /* Selve billederne */
+      .p {
+          width: 300px;
+          height: 300px;
+          margin: 25px 15px;
+      }
+
+      /* Skriften over billederne */
+      h2 {
+        background-color: rgba(255,255,255, 0.7);
+        width: 60%;
+        height: 30%;
+        padding-top: 7%;
+        padding-left: 8%;
+        padding-right: 1%;
+        margin: 15% 7%;
+        font-size: 15px;
+        font-family: 'Quattrocento Sans', sans-serif;
+        position: absolute;
+      }
+    }
   }
-}
 
    footer {
 
