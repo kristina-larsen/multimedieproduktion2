@@ -9,7 +9,7 @@ header{
 //  position: absolute;
   clear: both;
   width: 100%;
-  height: 100px;
+  height: auto;
   background-color: #e6e6e6;
   text-decoration: none;
   display: block;
@@ -19,7 +19,8 @@ div{
   //float: left;
 
   a{
-    margin-top: 400px;
+    text-decoration: none;
+    //margin: 20%;
 
       img{
         //height: 50px;
@@ -29,21 +30,33 @@ div{
         width: 10%;
         text-decoration: none;
         }
+
+        h3{
+        text-decoration: none;
+        width: 200px;
+        font-size: 28px;
+        color: #293952;
+        margin: auto;
+        padding-top: 6%;
+        font-family: 'Quattrocento Sans', sans-serif solid;
+        }
       }
 
-    .tekst{
-      text-decoration: none;
-      color: #293952;
-      margin-left: 20%;
-      margin-top: 20%;
-      font-family: 'Quattrocento Sans', sans-serif solid;
-    }
+    // .tekst{
+    //   text-decoration: none;
+    //   font-size: 28px;
+    //   color: #293952;
+    //   margin-left: 18%;
+    //   margin-top: 20%;
+    //   font-family: 'Quattrocento Sans', sans-serif solid;
+    // }
 
     form{
+      clear:both;
       width: 50%;
       //background-color: #185970;
       height: 40px;
-      margin-top: 6%;
+      //margin-top: 6%;
       // margin-top: 6%;
 
         // h2{
@@ -150,11 +163,11 @@ div{
 
 span{
   display: block;
-  font-size: 140%;
+  font-size: 250%;
   color: #293952;
   cursor: pointer;
   float: right;
-  margin: -18% 3% 0 0;
+  margin: -8% 3% 0 0;
   }
   /*menuen slutter her*/
   }
@@ -299,7 +312,7 @@ h2 {
   }
 }
 
-@media screen and (min-width: 766px){ /* Ipad-version */
+@media screen and (min-width: 766px){ /* Tablet-version */
 
 body {
 

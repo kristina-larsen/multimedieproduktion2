@@ -11,7 +11,7 @@ body {
 body header {
   clear: both;
   width: 100%;
-  height: 100px;
+  height: auto;
   background-color: #e6e6e6;
   text-decoration: none;
   display: block;
@@ -20,7 +20,7 @@ body header div {
   /*menuen slutter her*/
 }
 body header div a {
-  margin-top: 400px;
+  text-decoration: none;
 }
 body header div a img {
   margin: 3%;
@@ -29,17 +29,19 @@ body header div a img {
   width: 10%;
   text-decoration: none;
 }
-body header div .tekst {
+body header div a h3 {
   text-decoration: none;
+  width: 200px;
+  font-size: 28px;
   color: #293952;
-  margin-left: 20%;
-  margin-top: 20%;
+  margin: auto;
+  padding-top: 6%;
   font-family: 'Quattrocento Sans', sans-serif solid;
 }
 body header div form {
+  clear: both;
   width: 50%;
   height: 40px;
-  margin-top: 6%;
 }
 body header div form div {
   border: none;
@@ -125,11 +127,11 @@ body header div .navi .closebut {
 }
 body header div span {
   display: block;
-  font-size: 140%;
+  font-size: 250%;
   color: #293952;
   cursor: pointer;
   float: right;
-  margin: -18% 3% 0 0;
+  margin: -8% 3% 0 0;
 }
 body nav {
   display: none;
@@ -242,7 +244,7 @@ body footer .social .fa-linkedin {
 }
 
 @media screen and (min-width: 766px) {
-  /* Ipad-version */
+  /* Tablet-version */
   body h1 {
     font-size: 28px;
   }
