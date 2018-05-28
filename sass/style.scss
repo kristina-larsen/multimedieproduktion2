@@ -350,6 +350,129 @@ body {
       }
     }
 
+    //slider
+    // OVERLAY CSS KNAP
+
+            .knap{
+              width: 50px;
+              height: 50px;
+              background: white;
+              position: absolute;
+              left: 25%;
+              bottom: -25px;
+              transform: translateX(-50%);
+              border-radius: 50%;
+              overflow: hidden;
+
+              i {
+                height: 25px;
+                width: 50px;
+                padding-left: 35%;
+                padding-top: 8%;
+                font-size: 23px;
+              }
+            }
+
+    // OVERLAY CSS
+
+            .mercoverlay {
+              height: 500px;
+              width: 100%;
+              background-color: white;
+              // aktiver når du er færdig med at style
+              display: none;
+              position: absolute;
+              bottom: 0;
+
+              .control_prev{
+                position: absolute;
+                top: 210px;
+                left: 5%;
+                text-decoration: none;
+                font-size: 60px;
+                font-family: Roboto;
+                color: black;
+              }
+
+              .control_next{
+                position: absolute;
+                top: 210px;
+                right: 5%;
+                text-decoration: none;
+                font-size: 60px;
+                font-family: Roboto;
+                color: black;
+              }
+
+              .close{
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                text-decoration: none;
+                font-size: 25px;
+                font-family: Roboto;
+                color: black;
+              }
+
+
+
+              #slider {
+                width: 335px;
+                height: 400px;
+                overflow: hidden;
+                margin: auto;
+                margin-top: 20px;
+
+                .slides {
+                  display: block;
+                  width: 3015px;
+                  height: 400px;
+                }
+
+                .slide {
+                  float: left;
+                  list-style-type: none;
+                  width: 325px;
+                  height: 400px;
+                  margin: 0 5px;
+
+                  img{
+                    width: 100%;
+                    height: auto;
+                  }
+
+                  p{
+                    font-family: Istok Web;
+                    text-align: center;
+                    margin-top: 10px;
+                    color: grey;
+                    text-decoration: none;
+
+                    &:nth-of-type(2) {
+                      font-weight: bold;
+                      color: black;
+                    }
+                  }
+                }
+
+                .left1 {
+                  margin-left: -335px;
+                }
+
+                  .left2 {
+                    margin-left: -670px;
+                }
+
+                .left3{
+                  margin-left: -1005px;
+                }
+
+                .left4 {
+                  margin-left: 1340px;
+                }
+              }
+            }//slider slut
+
   footer {
     height: 300px;
 
