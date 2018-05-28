@@ -9,7 +9,7 @@ function closeNav(){ /*javascript til at lukke menuen når der trykkes på x */
 
 $(function() {
 
-  var width = 335;
+  var width = 260;
   var animationSpeed = 500;
   var currentSlide = 1;
 
@@ -22,7 +22,7 @@ $(function() {
   $('.control_next').click(function () {
     $slideContainer.animate({'margin-left': '-='+width}, animationSpeed, function () {
       currentSlide++;
-        if (currentSlide === $slides.length-5) {
+        if (currentSlide === $slides.length-9) {
           currentSlide = 1;
           $slideContainer.css('margin-left', 0);
         }
@@ -32,9 +32,9 @@ $(function() {
   $('.control_prev').click(function () {
     $slideContainer.animate({'margin-left': '+='+width}, animationSpeed, function () {
       currentSlide--;
-        if (currentSlide === -2) {
-          currentSlide = 4;
-          $slideContainer.css('margin-left', -1005);
+        if (currentSlide === -4) {
+          currentSlide = 6;
+          $slideContainer.css('margin-left', -1300);
         }
       });
     });
