@@ -158,11 +158,11 @@ body h1 {
 body .mercoverlay {
   display: none;
 }
-body .flexbox, body .flexbox2 {
+body .flexbox, body .flexbox2, body .flexbox3, body .flexbox4 {
   width: 90%;
   margin-left: 4.5%;
 }
-body .flexbox a, body .flexbox2 a {
+body .flexbox a, body .flexbox2 a, body .flexbox3 a, body .flexbox4 a {
   position: relative;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -170,12 +170,12 @@ body .flexbox a, body .flexbox2 a {
   /* Selve billederne */
   /* Skriften over billederne */
 }
-body .flexbox a .p, body .flexbox2 a .p {
+body .flexbox a .p, body .flexbox2 a .p, body .flexbox3 a .p, body .flexbox4 a .p {
   width: 135px;
   height: 135px;
   margin: 18px 13px 20px 13px;
 }
-body .flexbox a h2, body .flexbox2 a h2 {
+body .flexbox a h2, body .flexbox2 a h2, body .flexbox3 a h2, body .flexbox4 a h2 {
   background-color: rgba(255, 255, 255, 0.7);
   width: 60%;
   height: 29%;
@@ -240,13 +240,13 @@ body footer .social .fa-linkedin {
   body h1 {
     font-size: 28px;
   }
-  body .flexbox, body .flexbox2 {
+  body .flexbox, body .flexbox2, body .flexbox3, body .flexbox4 {
     width: 90%;
     margin-left: 6%;
     margin-right: 5%;
     margin-bottom: 5%;
   }
-  body .flexbox a, body .flexbox2 a {
+  body .flexbox a, body .flexbox2 a, body .flexbox3 a, body .flexbox4 a {
     position: relative;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -254,12 +254,12 @@ body footer .social .fa-linkedin {
     /* Selve billederne */
     /* Skriften over billederne */
   }
-  body .flexbox a .p, body .flexbox2 a .p {
+  body .flexbox a .p, body .flexbox2 a .p, body .flexbox3 a .p, body .flexbox4 a .p {
     width: 300px;
     height: 300px;
     margin: 25px 18px;
   }
-  body .flexbox a h2, body .flexbox2 a h2 {
+  body .flexbox a h2, body .flexbox2 a h2, body .flexbox3 a h2, body .flexbox4 a h2 {
     background-color: rgba(255, 255, 255, 0.7);
     width: 60%;
     height: 27%;
@@ -288,6 +288,9 @@ body footer .social .fa-linkedin {
     /* Forside desktop-version */
     /* Boksen med billederne */
     /* Selve slideshowet */
+    /* Boksen med billederne nederst på desktop */
+    /* Selvbetjening desktop */
+    /* Boksen med billederne nederst på desktop */
     /* Boksen med billederne nederst på desktop */
     /* Selve footeren */
   }
@@ -437,6 +440,44 @@ body footer .social .fa-linkedin {
     height: 310px;
   }
   body .flexbox2 a h2 {
+    margin-left: 4%;
+  }
+  body .flexbox3 {
+    margin-left: 5%;
+    margin-top: 3%;
+  }
+  body .flexbox3 a {
+    margin-left: 1%;
+    /* Selve billederne */
+    /*Teksten over billederne */
+  }
+  body .flexbox3 a .p {
+    width: 250px;
+    height: 250px;
+  }
+  body .flexbox3 a h2 {
+    margin-left: 4%;
+  }
+  body .flexbox4 {
+    margin: 0;
+    padding: 0;
+    margin-left: 5%;
+    margin-top: 3.5%;
+  }
+  body .flexbox4 a {
+    margin: 0;
+    padding: 0;
+    margin-left: 0.6%;
+    /* Selve billederne */
+    /*Teksten over billederne */
+  }
+  body .flexbox4 a .p {
+    width: 190px;
+    height: 190px;
+    margin: 0;
+    padding: 0;
+  }
+  body .flexbox4 a h2 {
     margin-left: 4%;
   }
   body footer {

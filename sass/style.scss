@@ -207,7 +207,7 @@ button {
   }
 
 /* Div for billederne */
-.flexbox, .flexbox2 {
+.flexbox, .flexbox2, .flexbox3, .flexbox4 {
   width: 90%;
   margin-left: 4.5%;
 
@@ -299,7 +299,7 @@ body {
   /* Forside tablet-version */
 
   /* Div for billederne */
-  .flexbox, .flexbox2 {
+  .flexbox, .flexbox2, .flexbox3, .flexbox4 {
     width: 90%;
     margin-left: 6%;
     margin-right: 5%;
@@ -530,6 +530,57 @@ h2 {
     }
   }
 }
+
+/* Selvbetjening desktop */
+
+/* Boksen med billederne nederst på desktop */
+.flexbox3 {
+  margin-left: 5%;
+  margin-top: 3%;
+
+  a {
+    margin-left: 1%;
+
+    /* Selve billederne */
+    .p {
+      width: 250px;
+      height: 250px;
+    }
+
+    /*Teksten over billederne */
+    h2 {
+      margin-left: 4%;
+    }
+  }
+}
+
+/* Boksen med billederne nederst på desktop */
+.flexbox4 {
+  margin: 0;
+  padding: 0;
+  margin-left: 5%;
+  margin-top: 3.5%;
+
+  a {
+    margin: 0;
+    padding: 0;
+    margin-left: 0.6%;
+
+    /* Selve billederne */
+    .p {
+      width: 190px;
+      height: 190px;
+      margin: 0;
+      padding: 0;
+    }
+
+    /*Teksten over billederne */
+    h2 {
+      margin-left: 4%;
+    }
+  }
+}
+
 
   /* Selve footeren */
   footer {
