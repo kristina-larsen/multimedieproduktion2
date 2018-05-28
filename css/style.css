@@ -20,7 +20,7 @@ body header div {
   /*menuen slutter her*/
 }
 body header div a {
-  margin-top: 20%;
+  margin-top: 400px;
 }
 body header div a img {
   margin: 3%;
@@ -30,9 +30,9 @@ body header div a img {
   text-decoration: none;
 }
 body header div .tekst {
-  text-align: center;
   text-decoration: none;
   color: #293952;
+  margin-left: 20%;
   margin-top: 20%;
   font-family: 'Quattrocento Sans', sans-serif solid;
 }
