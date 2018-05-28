@@ -206,11 +206,12 @@ button{
   .p {
     width: 40%;
     padding: 5% 3% 4% 5%;
-    position: relative;
     z-index: -2;
 }
 
 /* Skriften over billederne */
+a {
+
 h2 {
   background-color: rgba(255,255,255, 0.7);
   width: 25%;
@@ -220,19 +221,19 @@ h2 {
   font-size: 13px;
   font-family: 'Quattrocento Sans', sans-serif;
   position: absolute;
-  display: block;
+ }
  }
 
 /* Styring af de forskellige tekster til de forskellige billeder */
-.text1, .text3, .text5, .text7, .text9, .text11, .text13, .text15 {
-  margin-left: 5%;
-}
+// .text1, .text3, .text5, .text7, .text9, .text11, .text13, .text15 {
+//   margin-left: 5%;
+// }
+//
+// .text2, .text4, .text6, .text8, .text10, .text12, .text14, .text16 {
+//   margin-left: 54%;
+// }
 
-.text2, .text4, .text6, .text8, .text10, .text12, .text14, .text16 {
-  margin-left: 54%;
-}
-
-.text1, .text2 {
+/*.text1, .text2 {
   margin-top: -235%;
 }
 
@@ -262,7 +263,7 @@ h2 {
 
 .text15, .text16 {
   margin-top: -33%;
- }
+}*/
 }
 
 /* Selve footeren */
@@ -435,6 +436,7 @@ body {
               width: 100%;
               background-color: white;
               display: flex;
+              overflow: hidden;
               bottom: 0;
 
               .control_prev{
@@ -470,7 +472,7 @@ body {
 
 
               #slider {
-                width: 100%;
+                width: 1300px;
                 height: 400px;
                 overflow: hidden;
                 margin: auto;
@@ -478,9 +480,17 @@ body {
 
                 .slides {
                   display: block;
-                  width: 3015px;
+                  width: 5100px;
                   height: 400px;
                   padding: 0%;
+                }
+
+                .slide {
+                  float: left;
+                  list-style-type: none;
+                  width: 250px;
+                  height: 250px;
+                  margin: 0 5px;
 
                   /* Skriften over billederne */
                   h2 {
@@ -493,48 +503,22 @@ body {
                     font-size: 20px;
                     font-family: 'Quattrocento Sans', sans-serif;
                     position: absolute;
-                    margin-top: 5.5%;
+                    margin-top: -13%;
                    }
 
-                   .text2 {
-                     margin-left: 19.6%;
-                   }
-
-                   .text3 {
-                     margin-left: 38.8%;
-                   }
-
-                   .text4 {
-                     margin-left: 58.1%;
-                   }
-
-                   .text5 {
-                     margin-left: 77.3%;
-                   }
-
-                   .text6 {
-                     margin-left: 96.6%;
-                   }
-                }
-
-                .slide {
-                  float: left;
-                  list-style-type: none;
-                  width: 250px;
-                  height: 250px;
-                  margin: 0 5px;
-
-                  img{
+                  img {
                     width: 100%;
                     height: auto;
+                    position: relative;
                   }
 
-                  p{
+                  p {
                     font-family: Istok Web;
                     text-align: center;
                     margin-top: 10px;
                     color: grey;
                     text-decoration: none;
+                    position: absolute;
 
                     &:nth-of-type(2) {
                       font-weight: bold;
@@ -544,19 +528,23 @@ body {
                 }
 
                 .left1 {
-                  margin-left: -335px;
+                  margin-left: -265px;
                 }
 
                   .left2 {
-                    margin-left: -670px;
+                    margin-left: -530px;
                 }
 
                 .left3{
-                  margin-left: -1005px;
+                  margin-left: -795px;
                 }
 
                 .left4 {
-                  margin-left: 1340px;
+                  margin-left: -1060px;
+                }
+
+                .left5 {
+                  margin-left: -1325px;
                 }
               }
             }//slider slut
