@@ -206,6 +206,10 @@ button {
     display: none;
   }
 
+  main{
+    margin: auto;
+  }
+
 /* Div for billederne */
 .flexbox, .flexbox2, .flexbox3, .flexbox4 {
   width: 90%;
@@ -298,6 +302,21 @@ body {
 
   /* Forside tablet-version */
 
+  header {
+  div {
+
+    a {
+
+          h3 {
+          font-size: 18px;
+
+          }
+        }
+        span{
+          font-size: 200%;
+        }
+      }
+    }
   /* Div for billederne */
   .flexbox, .flexbox2, .flexbox3, .flexbox4 {
     width: 90%;
@@ -406,6 +425,61 @@ body {
 
 /* Forside desktop-version */
 
+  header{
+    div{
+//fjerner burger menuen
+    span{
+      display: none;
+    }
+
+    a {
+      text-decoration: none;
+      //margin: 20%;
+
+        img {
+          //height: 50px;
+          margin-left: 3%;
+          margin-top: 2%;
+          margin-bottom: 0;
+          float: left;
+          width: 5%;
+          text-decoration: none;
+          }
+
+          h3 {
+          float: left;
+          }
+        }
+
+  }
+//navigationen på siden
+      nav {
+        display: block;
+        text-decoration: none;
+        clear: both;
+        background-color: #293952;
+        height: 56px;
+        width: 100%;
+
+        li{
+          float: right;
+          list-style: none;
+          margin: 1% 2%;
+          background-color: #293952;
+
+          a{
+            text-decoration: none;
+            color: #ECEEF2;
+            font-style: bold;
+
+          }
+        }
+      }
+
+      button {
+        display: none;
+      }
+}
     /* Boksen med billederne */
     .flexbox {
       display: none;
@@ -443,8 +517,8 @@ body {
 
                 /* Selve slideshowet */
                 #slider {
-                  width: 1300px;
-                  height: 400px;
+                  width: 1820px;
+                  height: 275px;
                   overflow: hidden;
                   margin: auto;
                   margin-top: 4px;
@@ -453,9 +527,9 @@ body {
                     .slides {
                        display: block;
                        width: 5100px;
-                       height: 300px;
+                       max-height: 300px;
                        padding: 0%;
-                     }
+                      }
 
           /* Billederne i slideshowet */
           .slide {
@@ -467,6 +541,8 @@ body {
 
 /* Skriften over billederne */
 h2 {
+  overflow: hidden;
+  overflow-x: hidden;
   background-color: rgba(255,255,255, 0.7);
   width: 10%;
   height: 10%;
