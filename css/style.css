@@ -19,6 +19,7 @@ body header {
   display: block;
 }
 body header div {
+  width: 100%;
   /*menuen slutter her*/
 }
 body header div a {
@@ -42,12 +43,15 @@ body header div a h3 {
   padding-left: 7%;
   font-family: 'Quattrocento Sans', sans-serif;
 }
+body header div .desktoplogo {
+  display: none;
+}
 body header div form {
   clear: both;
   width: 50%;
   height: 40px;
 }
-body header div form div {
+body header div form .search {
   border: none;
   background-color: white;
   margin: -2% 20%;
@@ -57,24 +61,24 @@ body header div form div {
   text-align: center;
   border-radius: 10px;
 }
-body header div form div input {
+body header div form .search input {
   width: 82%;
   height: 20px;
   border: none;
   font-size: 16px;
 }
-body header div form div button {
+body header div form .search button {
   height: 100%;
   width: 8%;
   right: 0;
   margin: 0;
   padding: 0;
-  background: #87aa44;
   border: none;
   cursor: pointer;
   float: right;
+  color: #293952;
 }
-body header div form div button .submit {
+body header div form .search button .submit {
   width: 50%;
 }
 body header div .navi {
@@ -297,40 +301,6 @@ body footer .social .fa-linkedin {
     /* Boksen med billederne nederst på desktop */
     /* Selve footeren */
   }
-  body form {
-    clear: both;
-    width: 50%;
-    height: 40px;
-  }
-  body form div {
-    border: none;
-    background-color: white;
-    margin: 0% 20%;
-    height: 25px;
-    position: absolute;
-    width: 60%;
-    text-align: center;
-  }
-  body form div input {
-    width: 82%;
-    height: 20px;
-    border: none;
-    font-size: 16px;
-  }
-  body form div button {
-    height: 100%;
-    width: 8%;
-    right: 0;
-    margin: 0;
-    padding: 0;
-    background: #87aa44;
-    border: none;
-    cursor: pointer;
-    float: right;
-  }
-  body form div button .submit {
-    width: 50%;
-  }
   body h1 {
     background-color: #ECEEF2;
     color: #293952;
@@ -339,6 +309,15 @@ body footer .social .fa-linkedin {
     text-align: center;
     margin-bottom: 0;
   }
+  body header div .logo {
+    display: none;
+  }
+  body header div .tekst {
+    display: none;
+  }
+  body header div .desktoplogo {
+    display: block;
+  }
   body header div span {
     display: none;
   }
@@ -346,14 +325,58 @@ body footer .social .fa-linkedin {
     text-decoration: none;
   }
   body header div a img {
-    margin-left: 3%;
-    margin-top: 2%;
+    margin-left: 2%;
+    margin-top: 1%;
     margin-bottom: 0;
     float: left;
-    width: 5%;
+    width: 8%;
     text-decoration: none;
   }
-  body header div a h3 {
+  body header div form {
+    clear: right;
+    width: 90%;
+    height: 40px;
+    display: inline-block;
+    margin-top: 3%;
+  }
+  body header div form .search {
+    border: none;
+    background-color: white;
+    margin: 0% 5% 0 16%;
+    height: 31px;
+    position: initial;
+    width: 67%;
+    text-align: center;
+    float: left;
+  }
+  body header div form .search input {
+    width: 88%;
+    height: 22px;
+    border: none;
+    margin: 4px;
+    font-size: 16px;
+  }
+  body header div form .search button {
+    height: 100%;
+    width: 8%;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    float: right;
+    border-radius: 10px;
+  }
+  body header div form .search button .submit {
+    width: 50%;
+  }
+  body header div form .selvbeknap {
+    display: inline-block;
+    background-color: #293952;
+    border: none;
+    color: #ECEEF2;
+    padding: 8px;
     float: left;
   }
   body header nav {
@@ -376,7 +399,11 @@ body footer .social .fa-linkedin {
     font-style: bold;
   }
   body header button {
-    display: none;
+    display: block;
+    background-color: #293952;
+    border: none;
+    color: #ECEEF2;
+    padding: 8px;
   }
   body .flexbox {
     display: none;
