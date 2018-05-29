@@ -16,6 +16,7 @@ header {
 //  text-align: center;
 
 div {
+  width: 100%;
   //float: left;
 
   a {
@@ -44,6 +45,9 @@ div {
         }
       }
 
+      .desktoplogo{
+        display: none;
+      }
     // .tekst{
     //   text-decoration: none;
     //   font-size: 28px;
@@ -68,7 +72,7 @@ div {
 
         // }
 
-        div {
+        .search {
           border: none;
           background-color: white;
           margin: -2% 20%;
@@ -94,10 +98,11 @@ div {
           right: 0;
           margin: 0;
           padding: 0;
-          background: #87aa44;
+          // background: #87aa44;
           border: none;
           cursor: pointer;
           float: right;
+          color: #293952;
 
             .submit{
               width: 50%;
@@ -369,50 +374,6 @@ body {
 @media screen and (min-width: 992px){ /* Desktop-version */
 
 body {
-
-  form{
-    clear:both;
-    width: 50%;
-    height: 40px;
-
-
-      div{
-        border: none;
-        background-color: white;
-        margin: 0% 20%;
-        // margin-top: 12px;
-        height: 25px;
-        position: absolute;
-        width: 60%;
-        text-align: center;
-
-      input{
-        width: 82%;
-        height: 20px;
-        border: none;
-        //margin: 7.5px;
-        font-size: 16px;
-      }
-
-      button{
-        height: 100%;
-        width: 8%;
-        right: 0;
-        margin: 0;
-        padding: 0;
-        background: #87aa44;
-        border: none;
-        cursor: pointer;
-        float: right;
-
-          .submit{
-            width: 50%;
-          }
-      }
-      }
-
-  }
-
   /*Tekstenerne med farve */
   h1 {
     background-color: #ECEEF2;
@@ -427,6 +388,17 @@ body {
 
   header{
     div{
+
+      .logo{
+        display: none;
+      }
+      .tekst{
+        display: none;
+      }
+
+      .desktoplogo{
+        display: block;
+      }
 //fjerner burger menuen
     span{
       display: none;
@@ -438,17 +410,68 @@ body {
 
         img {
           //height: 50px;
-          margin-left: 3%;
-          margin-top: 2%;
+          margin-left: 2%;
+          margin-top: 1%;
           margin-bottom: 0;
           float: left;
-          width: 5%;
+          width: 8%;
           text-decoration: none;
           }
+        }
 
-          h3 {
-          float: left;
-          }
+        form{
+          clear: right;
+          width: 90%;
+          height: 40px;
+          display: inline-block;
+          margin-top: 3%;
+
+
+            .search{
+              border: none;
+              background-color: white;
+              margin: 0% 5% 0 16%;
+              // margin-top: 12px;
+              height: 31px;
+              position: initial;
+              width: 67%;
+              text-align: center;
+              float:left;
+
+            input{
+              width: 88%;
+              height: 22px;
+              border: none;
+              margin: 4px;
+              font-size: 16px;
+            }
+
+            button{
+              height: 100%;
+              width: 8%;
+              right: 0;
+              margin: 0;
+              padding: 0;
+              background-color: white;
+              border: none;
+              cursor: pointer;
+              float: right;
+              border-radius: 10px;
+
+                .submit{
+                  width: 50%;
+                }
+              }
+            }
+
+            .selvbeknap {
+              display: inline-block;
+              background-color: #293952;
+              border: none;
+              color: #ECEEF2;
+              padding: 8px;
+              float: left;
+            }
         }
 
   }
@@ -477,9 +500,14 @@ body {
       }
 
       button {
-        display: none;
+        display: block;
+        background-color: #293952;
+        border: none;
+        color: #ECEEF2;
+        padding: 8px;
       }
-}
+    }
+
     /* Boksen med billederne */
     .flexbox {
       display: none;
