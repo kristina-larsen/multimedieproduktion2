@@ -60,5 +60,4 @@ function closeNav(){ /*javascript til at lukke menuen når der trykkes på x */
 //     }
 //   });
 
-
 });
