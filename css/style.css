@@ -263,17 +263,21 @@ body footer .social .fa-linkedin-in {
     /* Tekserne med farve */
     /* Forside tablet-version */
     /* Div for billederne */
+    /* Flytning og folkeregister mobil-version */
     /* Selve footeren */
   }
   body h1 {
     font-size: 28px;
+  }
+  body header {
+    height: 150px;
   }
   body header div a h3 {
     font-size: 18px;
     padding-top: 7%;
   }
   body header div form {
-    margin-top: -10%;
+    margin-top: -8%;
     clear: none;
   }
   body header div form .search {
@@ -313,6 +317,19 @@ body footer .social .fa-linkedin-in {
     font-family: 'Quattrocento Sans', sans-serif;
     position: absolute;
   }
+  body h2 {
+    font-size: 17px;
+    padding-left: 6%;
+  }
+  body .fa-plus-circle {
+    font-size: 21px;
+    float: right;
+    margin-right: 8%;
+  }
+  body p {
+    font-size: 16px;
+    margin: 3% 10% 5% 6%;
+  }
   body footer {
     /*Teksten i footeren */
   }
@@ -334,6 +351,7 @@ body footer .social .fa-linkedin-in {
     /* Selvbetjening desktop */
     /* Boksen med billederne nederst på desktop */
     /* Boksen med billederne nederst på desktop */
+    /* Flytning og folkeregister mobil-version */
     /* Selve footeren */
   }
   body h1 {
@@ -343,6 +361,9 @@ body footer .social .fa-linkedin-in {
     padding-bottom: 2.5%;
     text-align: center;
     margin-bottom: 0;
+  }
+  body header {
+    height: auto;
   }
   body header div .logo {
     display: none;
@@ -604,6 +625,19 @@ body footer .social .fa-linkedin-in {
   body .flexbox4 a h2 {
     margin-left: 0%;
     height: 70px;
+  }
+  body h2 {
+    font-size: 22px;
+    padding-left: 6%;
+  }
+  body .fa-plus-circle {
+    font-size: 27px;
+    float: right;
+    margin-right: 8%;
+  }
+  body p {
+    font-size: 18px;
+    margin: 3% 10% 5% 6%;
   }
   body footer {
     height: 300px;
