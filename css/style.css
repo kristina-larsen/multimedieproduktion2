@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow-x: hidden;
   /* Burger-menu starter her */
   /*fjerner navigations*/
   /* Overskrifterne med baggrundsfarve */
@@ -270,6 +270,14 @@ body footer .social .fa-linkedin-in {
   }
   body header div a h3 {
     font-size: 18px;
+    padding-top: 7%;
+  }
+  body header div a form {
+    margin-top: -10%;
+    clear: none;
+  }
+  body header div a form .search {
+    margin-top: -10%;
   }
   body header div span {
     font-size: 200%;
@@ -431,6 +439,13 @@ body footer .social .fa-linkedin-in {
     color: #ECEEF2;
     font-style: bold;
   }
+  body header nav li .active {
+    text-decoration: none;
+    background: #ECEEF2;
+    color: #293952;
+    padding: 40% 30%;
+    font-weight: bold;
+  }
   body header button {
     display: block;
     background-color: #293952;
@@ -456,12 +471,13 @@ body footer .social .fa-linkedin-in {
   }
   body .mercoverlay .control_prev {
     margin-top: 8%;
-    left: 5%;
+    left: 7%;
     text-decoration: none;
     font-size: 60px;
     font-family: Roboto;
     color: black;
     z-index: 10;
+    margin-left: 1%;
   }
   body .mercoverlay .control_next {
     margin-top: 8%;
@@ -471,6 +487,7 @@ body footer .social .fa-linkedin-in {
     font-family: Roboto;
     color: black;
     z-index: 10;
+    margin-left: 95.5%;
   }
   body .mercoverlay #slider {
     width: 780px;
@@ -478,6 +495,9 @@ body footer .social .fa-linkedin-in {
     overflow: hidden;
     margin: auto;
     margin-top: 4px;
+    position: absolute;
+    clip: rect(10px, 1000px);
+    margin-left: 2.5%;
     /* Styring af billederne i slideshowet */
     /* Billederne i slideshowet */
     /*Mikkel forklar her */
@@ -629,5 +649,8 @@ body footer .social .fa-linkedin-in {
   }
   body .mercoverlay #slider {
     width: 1820px;
+  }
+  body footer {
+    max-width: 1920px;
   }
 }

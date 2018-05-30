@@ -3,7 +3,7 @@
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow-x: hidden;
 
 /* Burger-menu starter her */
 header {
@@ -340,9 +340,19 @@ body {
 
           h3 {
           font-size: 18px;
-
-          }
+          padding-top: 7%;
         }
+
+        form {
+          margin-top: -10%;
+          clear: none;
+
+          .search {
+            margin-top: -10%;
+          }
+         }
+        }
+
         span{
           font-size: 200%;
         }
@@ -527,10 +537,16 @@ body {
             text-decoration: none;
             color: #ECEEF2;
             font-style: bold;
-
-          }
-        }
-      }
+}
+            .active {
+              text-decoration: none;
+              background: #ECEEF2;
+              color: #293952;
+              padding: 40% 30%;
+              font-weight: bold;
+              }
+             }
+           }
 
       button {
         display: block;
@@ -558,12 +574,13 @@ body {
       /* Pilen til venstre */
       .control_prev{
         margin-top: 8%;
-        left: 5%;
+        left: 7%;
         text-decoration: none;
         font-size: 60px;
         font-family: Roboto;
         color: black;
         z-index: 10;
+        margin-left: 1%;
       }
 
             /* Pilen til højre */
@@ -575,6 +592,7 @@ body {
               font-family: Roboto;
               color: black;
               z-index: 10;
+              margin-left: 95.5%;
             }
 
                 /* Selve slideshowet */
@@ -584,6 +602,9 @@ body {
                   overflow: hidden;
                   margin: auto;
                   margin-top: 4px;
+                  position: absolute;
+                  clip: rect(10px, 1000px);
+                  margin-left: 2.5%;
 
                     /* Styring af billederne i slideshowet */
                     .slides {
@@ -802,6 +823,10 @@ h2 {
       #slider{
         width: 1820px;
       }
+    }
+
+    footer {
+      max-width: 1920px;
     }
   }
 }
