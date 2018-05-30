@@ -168,7 +168,8 @@ body main {
 }
 body .flexbox, body .flexbox2, body .flexbox3, body .flexbox4 {
   width: 90%;
-  margin-left: 4.5%;
+  margin: auto;
+  text-align: center;
 }
 body .flexbox a, body .flexbox2 a, body .flexbox3 a, body .flexbox4 a {
   position: relative;
@@ -471,7 +472,7 @@ body footer .social .fa-linkedin-in {
     z-index: 10;
   }
   body .mercoverlay #slider {
-    width: 1820px;
+    width: 780px;
     height: 275px;
     overflow: hidden;
     margin: auto;
@@ -497,15 +498,15 @@ body footer .social .fa-linkedin-in {
   }
   body .mercoverlay #slider .slide h2 {
     background-color: rgba(255, 255, 255, 0.7);
-    width: 10%;
-    height: 10%;
-    padding-top: 2%;
-    padding-left: 2%;
-    padding-right: 1%;
+    width: 135px;
+    height: 70px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
     font-size: 20px;
     font-family: 'Quattrocento Sans', sans-serif;
     position: absolute;
-    margin-top: -13%;
+    margin-top: -178px;
   }
   body .mercoverlay #slider .slide img {
     width: 100%;
@@ -528,11 +529,11 @@ body footer .social .fa-linkedin-in {
     margin-left: -1325px;
   }
   body .flexbox2 {
-    margin-left: 6%;
+    margin: auto;
     margin-top: 3%;
+    text-align: center;
   }
   body .flexbox2 a {
-    margin-left: 3%;
     /* Selve billederne */
     /*Teksten over billederne */
   }
@@ -603,5 +604,29 @@ body footer .social .fa-linkedin-in {
   }
   body footer .social .fa-linkedin-in {
     font-size: 50px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  body .mercoverlay #slider {
+    width: 1040px;
+  }
+}
+@media screen and (min-width: 1350px) {
+  body .mercoverlay #slider {
+    width: 1280px;
+  }
+}
+@media screen and (min-width: 1610px) {
+  body .mercoverlay #slider {
+    width: 1560px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  body {
+    max-width: 1920px;
+    margin: auto;
+  }
+  body .mercoverlay #slider {
+    width: 1820px;
   }
 }
