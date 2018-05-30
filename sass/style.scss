@@ -387,6 +387,7 @@ body {
 /* Forside desktop-version */
 
   header{
+
     div{
 
       .logo{
@@ -410,27 +411,27 @@ body {
 
         img {
           //height: 50px;
-          margin-left: 2%;
+          margin-left: 4%;
           margin-top: 1%;
-          margin-bottom: 0;
+          margin-bottom: 2%;
           float: left;
-          width: 8%;
+          width: 12%;
           text-decoration: none;
           }
         }
 
         form{
           clear: right;
-          width: 90%;
+          width: 80%;
           height: 40px;
           display: inline-block;
-          margin-top: 3%;
+          margin-top: 6%;
 
 
             .search{
               border: none;
               background-color: white;
-              margin: 0% 5% 0 16%;
+              margin: 0% 5% 0 12%;
               // margin-top: 12px;
               height: 31px;
               position: initial;
@@ -469,8 +470,11 @@ body {
               background-color: #293952;
               border: none;
               color: #ECEEF2;
-              padding: 8px;
+              padding: 9px 11px;
               float: left;
+              margin-left: 3%;
+              font-size: 15px;
+              font-family: 'Quattrocento Sans', sans-serif;
             }
         }
 
@@ -488,7 +492,10 @@ body {
           float: right;
           list-style: none;
           margin: 1% 2%;
+          padding-top: 0.5%;
+          font-size: 18px;
           background-color: #293952;
+          font-family: 'Quattrocento Sans', sans-serif;
 
           a{
             text-decoration: none;
