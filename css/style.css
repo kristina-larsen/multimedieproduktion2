@@ -272,12 +272,12 @@ body footer .social .fa-linkedin-in {
     font-size: 18px;
     padding-top: 7%;
   }
-  body header div a form {
+  body header div form {
     margin-top: -10%;
     clear: none;
   }
-  body header div a form .search {
-    margin-top: -10%;
+  body header div form .search {
+    margin-top: 12%;
   }
   body header div span {
     font-size: 200%;
