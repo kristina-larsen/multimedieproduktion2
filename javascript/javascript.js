@@ -1,4 +1,7 @@
 //Javascript/jqeury
+$( document ).ready(function() {
+
+
 function openNav(){
   document.getElementById("mynav").style.width = "100%";
 }
@@ -7,7 +10,7 @@ function closeNav(){ /*javascript til at lukke menuen når der trykkes på x */
 }
 //  slider
 
-$(function() {
+// $(function() {
 
   var width = 260;
   var animationSpeed = 500;
@@ -43,19 +46,19 @@ $(function() {
     var foldetud = $(".");
 
 //
-.on("click",function() {
-     $(".fa-plus-circle", ".fa-minus-circle").toggleClass("fa-plus-circle fa-minus-circle");
-     if( sammensat == false) {
-    //
-     = true;
-
-      }
-  else {
-    //
-     = false;
-
-    }
-  });
+// .on("click",function() {
+//      $(".fa-plus-circle", ".fa-minus-circle").toggleClass("fa-plus-circle fa-minus-circle");
+//      if( sammensat == false) {
+//     //
+//      = true;
+//
+//       }
+//   else {
+//     //
+//      = false;
+//
+//     }
+//   });
 
 
 });

@@ -147,7 +147,7 @@ body header div span {
 body nav {
   display: none;
 }
-body button {
+body .selvbeknap {
   display: none;
 }
 body h1 {
