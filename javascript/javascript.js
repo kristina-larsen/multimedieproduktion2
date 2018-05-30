@@ -38,4 +38,24 @@ $(function() {
         }
       });
     });
+
+    var sammensat = $(".beskyttelse");
+    var foldetud = $(".");
+
+//
+.on("click",function() {
+     $(".fa-plus-circle", ".fa-minus-circle").toggleClass("fa-plus-circle fa-minus-circle");
+     if( sammensat == false) {
+    //
+     = true;
+
+      }
+  else {
+    //
+     = false;
+
+    }
   });
+
+
+});
