@@ -10,7 +10,6 @@ body {
   /*Slideshow på forside */
   /* Div for billederne */
   /* Flytning og folkeregister mobil-version */
-  /* Selve footeren */
 }
 body header {
   clear: both;
@@ -202,31 +201,27 @@ body div h2 {
   font-family: 'Palanquin Dark', sans-serif;
   font-size: 15px;
   padding-left: 6%;
+  color: #293952;
 }
-body div .fa-plus-circle {
-  font-size: 17px;
-  float: right;
-  margin-right: 8%;
-}
-body div .mereinfo {
-  width: 100%;
-  display: none;
-}
-body div .mereinfo p {
+body div p {
   font-family: 'Quattrocento Sans', sans-serif;
   font-size: 14px;
 }
-body hr {
+
+hr {
   border-color: #293952;
 }
-body .instagram {
+
+.instagram {
   display: inline-grid;
   max-width: 100%;
 }
-body .instagram .instagram-media {
+.instagram .instagram-media {
   width: 50%;
 }
-body footer {
+
+/* Selve footeren */
+footer {
   width: 100%;
   height: 200px;
   background-color: #293952;
@@ -235,11 +230,11 @@ body footer {
   /* Teksten i footeren */
   /*De to logoer */
 }
-body footer .footertext {
+footer .footertext {
   margin-top: 14%;
   width: 55%;
 }
-body footer .footertext ul {
+footer .footertext ul {
   text-decoration: none;
   list-style-type: none;
   font-family: 'Quattrocento Sans', sans-serif;
@@ -247,19 +242,19 @@ body footer .footertext ul {
   line-height: 20px;
   font-weight: bold;
 }
-body footer .social {
+footer .social {
   float: right;
   margin-right: 10%;
   margin-top: -23%;
 }
-body footer .social .fa-facebook-f {
+footer .social .fa-facebook-f {
   font-size: 35px;
   background: #3C5A99;
   color: white;
   padding: 5px 6px 1px 17px;
   border-radius: 5px;
 }
-body footer .social .fa-linkedin-in {
+footer .social .fa-linkedin-in {
   font-size: 35px;
   background: #007BB6;
   color: white;
