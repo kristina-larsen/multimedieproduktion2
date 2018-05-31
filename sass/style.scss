@@ -254,11 +254,6 @@ a {
 
 /* Flytning og folkeregister mobil-version */
 .udvidknap{
-  width: 100%;
-  border: none;
-  background-color: white;
-  text-align: left;
-
     h2 {
       font-family: 'Palanquin Dark', sans-serif;
       font-size: 15px;
@@ -267,19 +262,24 @@ a {
     }
 }
 
+<<<<<<< HEAD
     #adr{
       display: none;
+=======
+    #myDIV{
+>>>>>>> a4d45e5f2aa5cec378dea5db598a387246e1b546
       width: 100%;
       padding: 50px 0;
-      background-color: #ECEEF2;
-      // margin-top: 20px;
+      text-align: center;
+      background-color: lightblue;
+      margin-top: 20px;
 
 
 
       p {
         font-family: 'Quattrocento Sans', sans-serif;
         font-size: 14px;
-        margin: 3% 10% 5% 6%;
+      //  margin: 3% 10% 5% 6%;
       }
 
 }
@@ -424,9 +424,7 @@ body {
     }
   }
 
-  /* Flytning og folkeregister tablet-version */
-.udvidknap{
-
+  /* Flytning og folkeregister mobil-version */
 
   h2 {
     font-size: 17px;
@@ -438,7 +436,7 @@ body {
     float: right;
     margin-right: 8%;
   }
-}
+
   p {
     font-size: 16px;
     margin: 3% 10% 5% 6%;
@@ -708,7 +706,7 @@ h2 {
       }
      }
 
-          /*Mikkel forklar her */
+          /* Billederne til venstre i slideshowet */
           .left1 {
             margin-left: -265px;
           }
@@ -818,24 +816,18 @@ h2 {
 }
 
 /* Flytning og folkeregister desktop-version */
-.udvidknap{
-  width: 100%;
-  border: none;
-  background-color: white;
-  text-align: left;
 
-
-    h2 {
-      font-size: 22px;
-      padding-left: 2%;
-    }
-
-    .fa-plus-circle {
-      font-size: 27px;
-      float: right;
-      margin-right: 2%;
-    }
+h2 {
+  font-size: 22px;
+  padding-left: 6%;
 }
+
+.fa-plus-circle {
+  font-size: 27px;
+  float: right;
+  margin-right: 8%;
+}
+
 p {
   font-size: 18px;
   margin: 3% 10% 5% 6%;
