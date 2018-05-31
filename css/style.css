@@ -27,6 +27,7 @@ body header div {
 body header div a {
   text-decoration: none;
   color: #293952;
+  width: 100%;
 }
 body header div a img {
   margin-left: 5%;
@@ -38,7 +39,7 @@ body header div a img {
 }
 body header div a h3 {
   text-decoration: none;
-  width: 130px;
+  width: 35%;
   font-size: 15px;
   color: #293952;
   margin: auto;
@@ -78,7 +79,7 @@ body header div form .search button {
   padding: 0;
   border: none;
   background-color: #ECEEF2;
-  width: 24px;
+  width: 10%;
   float: right;
 }
 body header div form .search button .submit {
@@ -143,7 +144,7 @@ body header div span {
   color: #293952;
   cursor: pointer;
   float: right;
-  margin: -6% 5% 0 0;
+  margin: -6% 4% 0 0;
 }
 body nav {
   display: none;
@@ -171,7 +172,7 @@ body main {
 body .flexbox, body .flexbox2, body .flexbox3, body .flexbox4 {
   width: 90%;
   margin: auto;
-  text-align: left;
+  text-align: center;
 }
 body .flexbox a, body .flexbox2 a, body .flexbox3 a, body .flexbox4 a {
   position: relative;
