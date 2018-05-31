@@ -3,14 +3,14 @@
 <head>
 
     <meta charset="utf-8">
-    <title></title>
+    <title> Flytning og folkeregister </title>
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="" content="NOINDEX, NOFOLLOW">
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- <link href="/static/fontawesome/fontawesome-all.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark" rel="stylesheet">
@@ -21,8 +21,9 @@
   <header>
 <div>
     <!--logo-->
-    <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+    <a class="logo" href="index.html"><img src="img/logo.png" alt="logo"></a>
     <a class="tekst" href="index.html"><h3>Køge Kommune</h3></a>
+    <a class="desktoplogo" href="index.html"><img src="img/logotest2.png" alt="logo"></a>
 
     <!--Burgermenu-->
     <!-- <div> -->
@@ -42,12 +43,15 @@
     <span onclick="openNav()">☰</span> <!--open nav-->
 
     <form action="" method="post" autocomplete="on">
-    <!-- <h2></h2> -->
 
+    <!-- <h2></h2> -->
     <div class="search">
       <input type="text" placeholder="Søg">
-      <i class="fa fa-search"></i>
+      <button><i class="fa fa-search"></i></button>
     </div>
+
+    <!--selvbetjeningsknap-->
+    <a href="selvbetjening.html"><button class="selvbeknap" type="button" name="button">Selvbetjening</button></a>
 
     </form>
 
@@ -55,16 +59,90 @@
   </div>
 
     <!--selvbetjeningsknap-->
-    <button type="button" name="button"></button>
+    <!-- <button type="button" name="button">Selvbetjening</button> -->
 
     <!--navigationslinje-->
     <nav>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li> <a href="#">Byråd og udvalg</a> </li>
+      <li> <a href="#">Erhverv</a> </li>
+      <li> <a class="active" href="index.html">Borger</a></li>
     </nav>
 
   </header>
+
+  <h1> Flytning og folkeregister </h1>
+
+<div class= "beskyttelse">
+  <h2> Adressebeskyttelse <i class="fas fa-plus-circle"></i></h2>
+
+<p>Du skal ansøge digitalt om at få registreret navne- og adressebeskyttelse i CPR: <br><br>
+
+<a href= "https://nemlog-in.dk/login.aspx/noeglekort">Ansøgning om adressebeskyttelse</a><br><br>
+
+Du kan få meget mere information om adressebeskyttelse her på hjemmesiden:<br><br>
+
+<a href="https://www.koege.dk/borger/Bolig-planlaegning-byggeri-og-flytning/Flytning-og-folkeregister/Adressebeskyttelse.aspx">Læs mere om adressebeskyttelse</a></p>
+</div>
+
+<hr>
+
+<div class= "forespørgsel">
+  <h2> Adresseforespørgsel <i class="fas fa-plus-circle"></i></h2>
+
+<p>Du skal søge om adresseforespørgslen digitalt via dette link: <br><br>
+
+<a href= "https://nemlog-in.dk/login.aspx/noeglekort">Adresseforespørgsel</a><br><br>
+
+Få mere at vide om at flytte på hjemmesiden:<br><br>
+
+<a href="https://www.koege.dk/borger/Bolig-planlaegning-byggeri-og-flytning/Flytning-og-folkeregister.aspx">Læs mere om flytning</a></p>
+</div>
+
+<hr>
+
+<div class= "bopælsattest">
+  <h2> Bestil bopælsattest <i class="fas fa-plus-circle"></i></h2>
+
+<p>Her kan du anmode om en bopælsattest, hvis du har brug for at dokumentere nuværende eller tidligere adresse, samt dokumentation for civilstand, statsborgerskab og tidligere navne: <br><br>
+
+<a href="https://nemlog-in.dk/login.aspx/noeglekort">Bestil bopælsattest</a><br><br>
+
+Få mere at vide:<br><br>
+
+<a href="https://www.koege.dk/borger/Bolig-planlaegning-byggeri-og-flytning/Flytning-og-folkeregister.aspx">Læs mere om flytning</a></p>
+</div>
+
+<hr>
+
+<div class= "meldflytning">
+  <h2> Meld flytning <i class="fas fa-plus-circle"></i></h2>
+
+<p>Du skal melde din flytning digitalt, du kan gøre det via dette link: <br><br>
+
+<a href="https://nemlog-in.dk/login.aspx/noeglekort">Digital flytning</a><br><br>
+
+Få mere at vide:<br><br>
+
+<a href="https://www.koege.dk/borger/Bolig-planlaegning-byggeri-og-flytning/Flytning-og-folkeregister.aspx">Læs mere om flytning</a></p>
+</div>
+
+<hr>
+
+<div class= "udrejse">
+  <h2> Udrejse <i class="fas fa-plus-circle"></i></h2>
+
+<p>Her kan du anmelde udrejse, hvis du har planer om at opholde dig i udlandet. Du har pligt til at anmelde udrejse, hvis du skal opholde dig i udlandet i mere end seks måneder: <br><br>
+
+<a href="https://nemlog-in.dk/login.aspx/noeglekort">Anmeld udrejse</a><br><br>
+
+Hvis du har dansk statsborgerskab/indfødsret og fast bopæl i Danmark, men opholder dig i udlandet, kan du her søge om optagelse på folketingsvalglisten. Printes og indsendes til borgerservice i den kommune, du har bopæl i/fraflyttede. Søg om optag her:<br><br>
+
+<a href="https://nemlog-in.dk/login.aspx/noeglekort">Optagelse på Folketingsvalglisten</a><br><br>
+
+Få mere information her:<br><br>
+
+<a href="https://www.koege.dk/borger/Bolig-planlaegning-byggeri-og-flytning/Flytning-og-folkeregister/Flyt-til-udlandet.aspx">Læs mere om flyt til udlandet</a></p>
+</div>
 
   <h1> Læs også </h1>
 
@@ -80,29 +158,30 @@
 
   <footer>
 
-  <footer>
-
-  <!-- Teksten i footeren -->
-  <div class="footertext">
-    <ul> Køge Kommune </ul>
-    <ul> Torvet 1 </ul>
-    <ul> 4600 Køge </ul>
-    <ul> raadhus@koege.dk </ul>
-    <ul> CVR-nr. 29189374 </ul>
-  </class>
+    <!-- Teksten i footeren -->
+    <div class="footertext">
+      <ul>
+      <li> Køge Kommune </li>
+      <li> Torvet 1 </li>
+      <li> 4600 Køge </li>
+      <li> raadhus@koege.dk </li>
+      <li> CVR-nr. 29189374 </li>
+    </ul>
+    </div>
 
   <!-- Sociale medier links -->
   <div class="social">
-  <a href="https://www.facebook.com/koegekommune"><i class="fa fa-facebook"></i></a>
-  <a href="https://dk.linkedin.com/company/koge-kommune"><i class="fa fa-linkedin"></i></a>
-  </class>
+    <a href="https://www.facebook.com/koegekommune"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://dk.linkedin.com/company/koge-kommune"><i class="fab fa-linkedin-in"></i></a>
+  </div>
 
-  </footer>
+    </footer>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="javascript/jquery-3.3.1.min.js"></script>
-  <script src="javascript/javascript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="javascript/jquery-3.3.1.min.js"></script> -->
+    <script src="javascript/javascript.js"></script>
 
-  </body>
 
-  </html>
+    </body>
+
+    </html>

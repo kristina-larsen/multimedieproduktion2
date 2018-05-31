@@ -3,6 +3,7 @@
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 
 /* Burger-menu starter her */
 header {
@@ -10,7 +11,7 @@ header {
   clear: both;
   width: 100%;
   height: auto;
-  background-color: #ECEEF2;
+  background-image: url('../img/back.jpg');
   text-decoration: none;
   display: block;
 //  text-align: center;
@@ -40,7 +41,7 @@ div {
         color: #293952;
         margin: auto;
         padding-top: 6%;
-        padding-left: 7%;
+        padding-left: 5%;
         font-family: 'Quattrocento Sans', sans-serif;
         }
       }
@@ -75,14 +76,13 @@ div {
         .search {
           border: none;
           background-color: white;
-          margin: -2% 20%;
+          margin: -1% 20%;
           // margin-top: 12px;
           height: 25px;
           position: absolute;
           width: 60%;
           text-align: center;
-          border-radius: 10px;
-
+          border-radius: 15px;
 
         input {
           width: 82%;
@@ -94,15 +94,15 @@ div {
 
         button {
           height: 100%;
-          width: 8%;
+          margin-right: 23%;
           right: 0;
           margin: 0;
           padding: 0;
           // background: #87aa44;
           border: none;
-          cursor: pointer;
+          background-color: #ECEEF2;
+          width: 24px;
           float: right;
-          color: #293952;
 
             .submit{
               width: 50%;
@@ -176,7 +176,7 @@ span {
   color: #293952;
   cursor: pointer;
   float: right;
-  margin: -6% 4% 0 0;
+  margin: -6% 5% 0 0;
   }
   /*menuen slutter her*/
   }
@@ -187,7 +187,7 @@ nav {
   display: none;
 }
 
-button {
+.selvbeknap {
   display: none;
 }
 
@@ -218,7 +218,8 @@ button {
 /* Div for billederne */
 .flexbox, .flexbox2, .flexbox3, .flexbox4 {
   width: 90%;
-  margin-left: 4.5%;
+  margin: auto;
+  text-align: center;
 
 a {
   position: relative;
@@ -245,7 +246,41 @@ a {
       position: absolute;
       text-decoration: none;
       color: #293952;
+      text-align: left;
     }
+  }
+}
+
+/* Flytning og folkeregister mobil-version */
+
+h2 {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: 15px;
+  padding-left: 6%;
+}
+
+.fa-plus-circle {
+  font-size: 17px;
+  float: right;
+  margin-right: 8%;
+}
+
+p {
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 14px;
+  margin: 3% 10% 5% 6%;
+}
+
+hr {
+  border-color: #293952;
+}
+
+.instagram {
+  display: inline-grid;
+  max-width: 100%;
+
+  .instagram-media {
+    width: 50%;
   }
 }
 
@@ -259,24 +294,26 @@ a {
 
   /* Teksten i footeren */
     .footertext {
-      margin-top: 16%;
-    }
+      margin-top: 14%;
+      width: 55%;
 
-        ul {
+          ul {
           text-decoration: none;
+          list-style-type: none;
           font-family: 'Quattrocento Sans', sans-serif;
           color: white;
-          line-height: 3px;
+          line-height: 20px;
           font-weight: bold;
-        }
+       }
+      }
 
      /*De to logoer */
       .social {
         float: right;
         margin-right: 10%;
-        margin-top: -20%;
+        margin-top: -23%;
 
-        .fa-facebook {
+        .fa-facebook-f {
           font-size: 35px;
           background: #3C5A99;
           color: white;
@@ -284,7 +321,7 @@ a {
           border-radius: 5px;
         }
 
-        .fa-linkedin {
+        .fa-linkedin-in {
           font-size: 35px;
           background: #007BB6;
           color: white;
@@ -308,17 +345,36 @@ body {
   /* Forside tablet-version */
 
   header {
+    height: 150px;
+
   div {
 
     a {
 
+      img {
+        width: 45px;
+        height: auto;
+      }
+
           h3 {
           font-size: 18px;
-
-          }
+          padding-top: 4.5%;
         }
+      }
+
+        form {
+          margin-top: -8%;
+          clear: none;
+
+          .search {
+            margin-top: 12%;
+          }
+         }
+
+
         span{
           font-size: 200%;
+          margin-top: -4%;
         }
       }
     }
@@ -356,16 +412,45 @@ body {
     }
   }
 
+  /* Flytning og folkeregister mobil-version */
+
+  h2 {
+    font-size: 17px;
+    padding-left: 6%;
+  }
+
+  .fa-plus-circle {
+    font-size: 21px;
+    float: right;
+    margin-right: 8%;
+  }
+
+  p {
+    font-size: 16px;
+    margin: 3% 10% 5% 6%;
+  }
+
+  .instagram {
+    display: block;
+    max-width: 100%;
+
+
+  .instagram-media {
+    width: 20%;
+  }
+  }
+
    /* Selve footeren */
    footer {
 
       /*Teksten i footeren */
       .footertext {
-       margin-top: 8%;
+       margin-top: 6.5%;
       }
 
       .social {
-        margin-top: -10%;
+        margin-top: -11%;
+        margin-left: 2%;
       }
      }
     }
@@ -378,8 +463,8 @@ body {
   h1 {
     background-color: #ECEEF2;
     color: #293952;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     text-align: center;
     margin-bottom: 0;
   }
@@ -387,6 +472,8 @@ body {
 /* Forside desktop-version */
 
   header{
+    height: auto;
+
     div{
 
       .logo{
@@ -410,27 +497,27 @@ body {
 
         img {
           //height: 50px;
-          margin-left: 2%;
+          margin-left: 4%;
           margin-top: 1%;
-          margin-bottom: 0;
+          margin-bottom: 2%;
           float: left;
-          width: 8%;
+          width: 12%;
           text-decoration: none;
           }
         }
 
         form{
           clear: right;
-          width: 90%;
+          width: 80%;
           height: 40px;
           display: inline-block;
-          margin-top: 3%;
+          margin-top: 6%;
 
 
             .search{
               border: none;
               background-color: white;
-              margin: 0% 5% 0 16%;
+              margin: 0.5% 5% 0 12%;
               // margin-top: 12px;
               height: 31px;
               position: initial;
@@ -448,15 +535,15 @@ body {
 
             button{
               height: 100%;
-              width: 8%;
               right: 0;
               margin: 0;
               padding: 0;
-              background-color: white;
               border: none;
               cursor: pointer;
               float: right;
-              border-radius: 10px;
+              background-color: #ECEEF2;
+              width: 39px;
+              color: black;
 
                 .submit{
                   width: 50%;
@@ -469,8 +556,13 @@ body {
               background-color: #293952;
               border: none;
               color: #ECEEF2;
-              padding: 8px;
+              padding: 12px 15px;
               float: left;
+              margin-left: 3%;
+              margin-top: 0%;
+              font-size: 15px;
+              border-radius: 15px;
+              font-family: 'Quattrocento Sans', sans-serif;
             }
         }
 
@@ -488,16 +580,25 @@ body {
           float: right;
           list-style: none;
           margin: 1% 2%;
+          padding-top: 0.5%;
+          font-size: 18px;
           background-color: #293952;
+          font-family: 'Quattrocento Sans', sans-serif;
 
           a{
             text-decoration: none;
             color: #ECEEF2;
             font-style: bold;
-
-          }
-        }
-      }
+}
+            .active {
+              text-decoration: none;
+              background: #ECEEF2;
+              color: #293952;
+              padding: 40% 30%;
+              font-weight: bold;
+              }
+             }
+           }
 
       button {
         display: block;
@@ -525,12 +626,13 @@ body {
       /* Pilen til venstre */
       .control_prev{
         margin-top: 8%;
-        left: 5%;
+        left: 7%;
         text-decoration: none;
         font-size: 60px;
         font-family: Roboto;
         color: black;
         z-index: 10;
+        margin-left: 1%;
       }
 
             /* Pilen til højre */
@@ -542,15 +644,19 @@ body {
               font-family: Roboto;
               color: black;
               z-index: 10;
+              margin-left: 95.5%;
             }
 
                 /* Selve slideshowet */
                 #slider {
-                  width: 1820px;
+                  width: 780px;
                   height: 275px;
                   overflow: hidden;
                   margin: auto;
                   margin-top: 4px;
+                  position: absolute;
+                  clip: rect(10px, 1000px);
+                  margin: 0% 2.5%;
 
                     /* Styring af billederne i slideshowet */
                     .slides {
@@ -571,15 +677,15 @@ body {
 /* Skriften over billederne */
 h2 {
   background-color: rgba(255,255,255, 0.7);
-  width: 10%;
-  height: 10%;
-  padding-top: 2%;
-  padding-left: 2%;
-  padding-right: 1%;
+  width: 135px;
+  height: 70px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 10px;
   font-size: 20px;
   font-family: 'Quattrocento Sans', sans-serif;
   position: absolute;
-  margin-top: -13%;
+  margin-top: -178px;
   }
 
       /* Selve billederne */
@@ -613,13 +719,25 @@ h2 {
       }
     }
 
+.instagram {
+  display: flex;
+  max-width: 100%;
+
+
+.instagram-media {
+  width: 20%;
+}
+}
+
 /* Boksen med billederne nederst på desktop */
 .flexbox2 {
-  margin-left: 6%;
+  margin: auto;
   margin-top: 3%;
+  text-align: center;
 
   a {
-    margin-left: 3%;
+    //margin-left: 3%;
+
 
     /* Selve billederne */
     .p {
@@ -686,32 +804,113 @@ h2 {
   }
 }
 
+/* Flytning og folkeregister mobil-version */
+
+h2 {
+  font-size: 22px;
+  padding-left: 6%;
+}
+
+.fa-plus-circle {
+  font-size: 27px;
+  float: right;
+  margin-right: 8%;
+}
+
+p {
+  font-size: 18px;
+  margin: 3% 10% 5% 6%;
+}
 
   /* Selve footeren */
   footer {
-    height: 300px;
+    height: 270px;
     margin-top: 0.7%;
 
     /* Teksten i footeren */
     .footertext {
       font-size: 25px;
-      margin-top: 7%;
+      margin-top: 5.8%;
+
+      ul {
+        line-height: 27px;
+        margin-left: 3%;
+      }
     }
 
     /* Sociale medier logoer */
     .social {
       margin-right: 5%;
-      margin-top: -8%;
+      margin-top: -9%;
 
-    .fa-facebook {
+    .fa-facebook-f {
       font-size: 50px;
       padding-left: 20px;
     }
 
-    .fa-linkedin {
+    .fa-linkedin-in {
       font-size: 50px;
     }
    }
   }
  }
+}
+
+@media screen and(min-width: 1100px){
+
+      body{
+
+
+      .mercoverlay{
+
+        #slider{
+          width: 1040px;
+        }
+      }
+    }
+}
+
+@media screen and(min-width: 1350px){
+
+      body{
+
+      .mercoverlay{
+
+        #slider{
+          width: 1280px;
+        }
+      }
+    }
+}
+
+@media screen and(min-width: 1610px){
+
+      body{
+
+      .mercoverlay{
+
+        #slider{
+          width: 1560px;
+        }
+      }
+    }
+}
+
+@media screen and(min-width: 1920px){
+
+    body{
+      max-width: 1920px;
+      margin: auto;
+
+    .mercoverlay{
+
+      #slider{
+        width: 1820px;
+      }
+    }
+
+    footer {
+      max-width: 1920px;
+    }
+  }
 }
