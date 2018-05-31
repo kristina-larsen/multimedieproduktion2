@@ -1,5 +1,4 @@
 //Javascript/jqeury
-$( document ).ready(function() {
 
 
 function openNav(){
@@ -10,7 +9,7 @@ function closeNav(){ /*javascript til at lukke menuen når der trykkes på x */
 }
 //  slider
 
-// $(function() {
+$( document ).ready(function() {
 
   var width = 260;
   var animationSpeed = 500;
@@ -42,22 +41,22 @@ function closeNav(){ /*javascript til at lukke menuen når der trykkes på x */
       });
     });
 
-    var sammensat = $(".beskyttelse");
-    var foldetud = $(".");
 
-//
-// .on("click",function() {
-//      $(".fa-plus-circle", ".fa-minus-circle").toggleClass("fa-plus-circle fa-minus-circle");
-//      if( sammensat == false) {
-//     //
-//      = true;
-//
-//       }
-//   else {
-//     //
-//      = false;
-//
-//     }
-//   });
+//show/hide teksten på nederste side
+    $(function(){
+
+      const $overskrift = $('.overskrift');
+      const $info = $('.mereinfo');
+      // const $close = $('.close');
+
+      $overskrift.on('click', () => {
+        $info.show();
+      })
+    // aktiver inden færdig
+      $overskrift.on('click', () => {
+        $info.hide();
+      })
+
+    });
 
 });
