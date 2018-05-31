@@ -43,20 +43,29 @@ $( document ).ready(function() {
 
 
 //show/hide teksten på nederste side
-    $(function(){
+    // $(function(){
+    //
+    //   const $overskrift = $('.udvidknap');
+    //   const $info = $('.myDIV');
+    //   // const $close = $('.close');
+    //
+    //   $overskrift.on('click', () => {
+    //     $info.show();
+    //   })
+    // // aktiver inden færdig
+    //   $overskrift.on('click', () => {
+    //     $info.hide();
+    //   })
+    //
+    // });
 
-      const $overskrift = $('.overskrift');
-      const $info = $('.mereinfo');
-      // const $close = $('.close');
-
-      $overskrift.on('click', () => {
-        $info.show();
-      })
-    // aktiver inden færdig
-      $overskrift.on('click', () => {
-        $info.hide();
-      })
-
-    });
+    function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+};
 
 });

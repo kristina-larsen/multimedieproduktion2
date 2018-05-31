@@ -253,23 +253,28 @@ a {
 }
 
 /* Flytning og folkeregister mobil-version */
-div{
+.udvidknap{
     h2 {
       font-family: 'Palanquin Dark', sans-serif;
       font-size: 15px;
       padding-left: 6%;
       color: #293952;
     }
+}
 
-
-
+    #myDIV{
+      width: 100%;
+      padding: 50px 0;
+      text-align: center;
+      background-color: lightblue;
+      margin-top: 20px;
 
       p {
         font-family: 'Quattrocento Sans', sans-serif;
         font-size: 14px;
       //  margin: 3% 10% 5% 6%;
       }
-    }
+
 }
 hr {
   border-color: #293952;
@@ -331,7 +336,7 @@ hr {
       }
     }
   }
-
+}
 
 @media screen and (min-width: 766px){ /* Tablet-version */
 
