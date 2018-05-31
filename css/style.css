@@ -171,7 +171,7 @@ body main {
 body .flexbox, body .flexbox2, body .flexbox3, body .flexbox4 {
   width: 90%;
   margin: auto;
-  text-align: center;
+  text-align: left;
 }
 body .flexbox a, body .flexbox2 a, body .flexbox3 a, body .flexbox4 a {
   position: relative;
@@ -336,6 +336,7 @@ body footer .social .fa-linkedin-in {
     font-size: 23px;
     font-family: 'Quattrocento Sans', sans-serif;
     position: absolute;
+    color: #293952;
   }
   body h2 {
     font-size: 17px;
@@ -577,6 +578,7 @@ body footer .social .fa-linkedin-in {
     font-family: 'Quattrocento Sans', sans-serif;
     position: absolute;
     margin-top: -178px;
+    color: #293952;
   }
   body .mercoverlay #slider .slide img {
     width: 100%;
@@ -625,8 +627,7 @@ body footer .social .fa-linkedin-in {
     margin-left: 4%;
   }
   body .flexbox3 {
-    margin-left: 5%;
-    margin-top: 3%;
+    width: 93%;
   }
   body .flexbox3 a {
     margin-left: 1%;

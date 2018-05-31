@@ -220,7 +220,7 @@ nav {
 .flexbox, .flexbox2, .flexbox3, .flexbox4 {
   width: 90%;
   margin: auto;
-  text-align: center;
+  text-align: left;
 
 a {
   position: relative;
@@ -231,6 +231,7 @@ a {
         width: 135px;
         height: 135px;
         margin: 18px 13px 20px 13px;
+
       }
 
     /* Skriften over billederne */
@@ -416,6 +417,7 @@ body {
         font-size: 23px;
         font-family: 'Quattrocento Sans', sans-serif;
         position: absolute;
+        color: #293952;
       }
     }
   }
@@ -692,6 +694,7 @@ h2 {
   font-family: 'Quattrocento Sans', sans-serif;
   position: absolute;
   margin-top: -178px;
+  color: #293952;
   }
 
       /* Selve billederne */
@@ -763,8 +766,9 @@ h2 {
 
 /* Boksen med billederne nederst på desktop */
 .flexbox3 {
-  margin-left: 5%;
-  margin-top: 3%;
+  // margin-left: 5%;
+  // margin-top: 3%;
+  width: 93%;
 
   a {
     margin-left: 1%;
