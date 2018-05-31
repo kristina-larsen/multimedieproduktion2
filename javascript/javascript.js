@@ -59,13 +59,58 @@ $( document ).ready(function() {
     //
     // });
 
-    function myFunction() {
-    var x = document.getElementById("myDIV");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-};
+//     function myFunction() {
+//     var x = document.getElementById("myDIV");
+//     if (x.style.display === "none") {
+//         x.style.display = "block";
+//     } else {
+//         x.style.display = "none";
+//     }
+// }
 
 });
+
+function adresse() {
+var x = document.getElementById("adr");
+if (x.style.display !== "block") {
+    x.style.display = "block";
+} else {
+    x.style.display = "none";
+}
+}
+
+function adressefor() {
+var x = document.getElementById("adrf");
+if (x.style.display !== "block") {
+    x.style.display = "block";
+} else {
+    x.style.display = "none";
+}
+}
+
+function bopal() {
+var x = document.getElementById("bop");
+if (x.style.display !== "block") {
+    x.style.display = "block";
+} else {
+    x.style.display = "none";
+}
+}
+
+function flyt() {
+var x = document.getElementById("fly");
+if (x.style.display !== "block") {
+    x.style.display = "block";
+} else {
+    x.style.display = "none";
+}
+}
+
+function udrejse() {
+var x = document.getElementById("rejs");
+if (x.style.display !== "block") {
+    x.style.display = "block";
+} else {
+    x.style.display = "none";
+}
+}

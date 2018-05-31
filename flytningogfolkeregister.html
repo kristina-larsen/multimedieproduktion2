@@ -73,8 +73,8 @@
   <h1> Flytning og folkeregister </h1>
 
 <!-- <div class= ""> -->
-  <button class="udvidknap" onclick="myFunction()"><h2 class="overskrift"> Adressebeskyttelse <i class="fas fa-plus-circle"></i></h2></button>
-  <div id="myDIV">
+  <button class="udvidknap" onclick="adresse()"><h2 class="overskrift"> Adressebeskyttelse <i class="fas fa-plus-circle"></i></h2></button>
+  <div id="adr">
     <p>Du skal ansøge digitalt om at få registreret navne- og adressebeskyttelse i CPR: <br><br>
 
       <a href= "https://nemlog-in.dk/login.aspx/noeglekort">Ansøgning om adressebeskyttelse</a><br><br>
@@ -89,9 +89,9 @@
 <hr>
 
 <!-- <div class= "overskrift"> -->
-  <h2> Adresseforespørgsel <i class="fas fa-plus-circle"></i></h2>
+  <button class="udvidknap" onclick="adressefor()"><h2> Adresseforespørgsel <i class="fas fa-plus-circle"></i></h2></button>
 
-  <div class="mereinfo">
+  <div id="adrf">
 <p>Du skal søge om adresseforespørgslen digitalt via dette link: <br><br>
 
 <a href= "https://nemlog-in.dk/login.aspx/noeglekort">Adresseforespørgsel</a><br><br>
@@ -106,8 +106,8 @@ Få mere at vide om at flytte på hjemmesiden:<br><br>
 <hr>
 
 <!-- <div class= "bopælsattest overskrift"> -->
-  <h2> Bestil bopælsattest <i class="fas fa-plus-circle"></i></h2>
-  <div class="mereinfo">
+  <button class="udvidknap" onclick="bopal()"><h2> Bestil bopælsattest <i class="fas fa-plus-circle"></i></h2></button>
+  <div id="bop">
 <p>Her kan du anmode om en bopælsattest, hvis du har brug for at dokumentere nuværende eller tidligere adresse, samt dokumentation for civilstand, statsborgerskab og tidligere navne: <br><br>
 
 <a href="https://nemlog-in.dk/login.aspx/noeglekort">Bestil bopælsattest</a><br><br>
@@ -122,8 +122,8 @@ Få mere at vide:<br><br>
 <hr>
 
 <!-- <div class= "meldflytning overskrift"> -->
-  <h2> Meld flytning <i class="fas fa-plus-circle"></i></h2>
-  <div class="mereinfo">
+  <button class="udvidknap" onclick="flyt()"><h2> Meld flytning <i class="fas fa-plus-circle"></i></h2></button>
+  <div id="fly">
 <p>Du skal melde din flytning digitalt, du kan gøre det via dette link: <br><br>
 
 <a href="https://nemlog-in.dk/login.aspx/noeglekort">Digital flytning</a><br><br>
@@ -138,8 +138,8 @@ Få mere at vide:<br><br>
 <hr>
 
 <!-- <div class= "udrejse overskrift"> -->
-  <h2> Udrejse <i class="fas fa-plus-circle"></i></h2>
-    <div class="mereinfo">
+  <button class="udvidknap" onclick="udrejse()"><h2> Udrejse <i class="fas fa-plus-circle"></i></h2></button>
+  <div id="rejs">
       <p>Her kan du anmelde udrejse, hvis du har planer om at opholde dig i udlandet. Du har pligt til at anmelde udrejse, hvis du skal opholde dig i udlandet i mere end seks måneder: <br><br>
 
         <a href="https://nemlog-in.dk/login.aspx/noeglekort">Anmeld udrejse</a><br><br>
@@ -200,7 +200,7 @@ Få mere at vide:<br><br>
             x.style.display = "none";
         }
     } -->
-<!-- 
+<!--
     </script> -->
 
 
