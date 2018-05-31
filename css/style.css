@@ -92,6 +92,7 @@ body header div .navi {
   right: 0;
   background-color: rgba(0, 0, 0, 0.9);
   overflow-x: hidden;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none;
   /*hvordan ser indholdet ud i hamburgermenuen*/
@@ -114,6 +115,7 @@ body header div .navi .overlayer a {
   font-size: 30px;
   color: #ffffff;
   display: block;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 body header div .navi .overlayer .linje {
@@ -172,6 +174,8 @@ body .flexbox, body .flexbox2, body .flexbox3, body .flexbox4 {
 }
 body .flexbox a, body .flexbox2 a, body .flexbox3 a, body .flexbox4 a {
   position: relative;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
   /* Selve billederne */
   /* Skriften over billederne */
@@ -200,6 +204,7 @@ body h2 {
   font-family: 'Palanquin Dark', sans-serif;
   font-size: 15px;
   padding-left: 6%;
+  margin-top: 5%;
 }
 body .fa-plus-circle {
   font-size: 17px;
@@ -305,6 +310,8 @@ body footer .social .fa-linkedin-in {
   }
   body .flexbox a, body .flexbox2 a, body .flexbox3 a, body .flexbox4 a {
     position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     /* Selve billederne */
     /* Skriften over billederne */
@@ -368,7 +375,8 @@ body footer .social .fa-linkedin-in {
     /* Selvbetjening desktop */
     /* Boksen med billederne nederst på desktop */
     /* Boksen med billederne nederst på desktop */
-    /* Flytning og folkeregister mobil-version */
+    /* Flytning og folkeregister desktop-version */
+    /* Pas desktop-version */
     /* Selve footeren */
   }
   body h1 {
@@ -500,6 +508,8 @@ body footer .social .fa-linkedin-in {
     height: 290px;
     width: 100%;
     background-color: white;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     bottom: 0;
     overflow-wrap: break-word;
