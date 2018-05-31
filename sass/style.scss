@@ -285,12 +285,19 @@ hr {
 }
 
 .instagram {
-  display: inline-grid;
+  display: block;
   max-width: 100%;
+  clear: both;
+  height: 500px;
 
-  .instagram-media {
-    width: 50%;
-  }
+
+
+
+.instagram-media {
+  width: 20%;
+  float: left;
+
+}
 }
 
 /* Selve footeren */
@@ -443,10 +450,16 @@ body {
   .instagram {
     display: block;
     max-width: 100%;
+    clear: both;
+    height: 500px;
+
+
 
 
   .instagram-media {
     width: 20%;
+    float: left;
+
   }
   }
 
@@ -729,12 +742,18 @@ h2 {
     }
 
 .instagram {
-  display: flex;
+  display: block;
   max-width: 100%;
+  clear: both;
+  height: 500px;
+
+
 
 
 .instagram-media {
   width: 20%;
+  float: left;
+
 }
 }
 

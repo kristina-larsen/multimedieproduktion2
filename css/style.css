@@ -220,11 +220,14 @@ body hr {
   border-color: #293952;
 }
 body .instagram {
-  display: inline-grid;
+  display: block;
   max-width: 100%;
+  clear: both;
+  height: 500px;
 }
 body .instagram .instagram-media {
-  width: 50%;
+  width: 20%;
+  float: left;
 }
 body footer {
   width: 100%;
@@ -348,9 +351,12 @@ body footer .social .fa-linkedin-in {
   body .instagram {
     display: block;
     max-width: 100%;
+    clear: both;
+    height: 500px;
   }
   body .instagram .instagram-media {
     width: 20%;
+    float: left;
   }
   body footer {
     /*Teksten i footeren */
@@ -593,11 +599,14 @@ body footer .social .fa-linkedin-in {
     margin-left: -1325px;
   }
   body .instagram {
-    display: flex;
+    display: block;
     max-width: 100%;
+    clear: both;
+    height: 500px;
   }
   body .instagram .instagram-media {
     width: 20%;
+    float: left;
   }
   body .flexbox2 {
     margin: auto;
