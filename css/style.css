@@ -26,6 +26,7 @@ body header div {
 }
 body header div a {
   text-decoration: none;
+  color: #293952;
 }
 body header div a img {
   margin-left: 5%;
@@ -173,6 +174,7 @@ body .flexbox, body .flexbox2, body .flexbox3, body .flexbox4 {
 body .flexbox a, body .flexbox2 a, body .flexbox3 a, body .flexbox4 a {
   position: relative;
   display: inline-flex;
+  color: #293952;
   /* Selve billederne */
   /* Skriften over billederne */
 }
@@ -200,6 +202,7 @@ body div h2 {
   font-family: 'Palanquin Dark', sans-serif;
   font-size: 15px;
   padding-left: 6%;
+  color: #293952;
 }
 body div .fa-plus-circle {
   font-size: 17px;
@@ -598,6 +601,7 @@ body footer .social .fa-linkedin-in {
     margin: auto;
     margin-top: 3%;
     text-align: center;
+    width: 73%;
   }
   body .flexbox2 a {
     /* Selve billederne */
@@ -699,6 +703,9 @@ body footer .social .fa-linkedin-in {
   body .mercoverlay #slider {
     width: 1040px;
     margin: 0 5%;
+  }
+  body .flexbox2 {
+    width: 1050px;
   }
 }
 @media screen and (min-width: 1350px) {
