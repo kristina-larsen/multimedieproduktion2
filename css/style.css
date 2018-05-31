@@ -227,6 +227,7 @@ body .instagram {
 body .instagram .instagram-media {
   width: 45%;
   display: inline-block;
+  margin: 2.5%;
 }
 body footer {
   width: 100%;
@@ -347,12 +348,9 @@ body footer .social .fa-linkedin-in {
     font-size: 16px;
     margin: 3% 10% 5% 6%;
   }
-  body .instagram {
-    max-width: 100%;
-    clear: both;
-  }
   body .instagram .instagram-media {
     width: 17%;
+    margin: 1.29%;
   }
   body footer {
     /*Teksten i footeren */
@@ -599,6 +597,7 @@ body footer .social .fa-linkedin-in {
   }
   body .instagram .instagram-media {
     width: 17%;
+    margin: 1.33%;
   }
   body .flexbox2 {
     margin: auto;
