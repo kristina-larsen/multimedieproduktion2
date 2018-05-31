@@ -210,13 +210,13 @@ body .udvidknap h2 {
   padding-left: 6%;
   color: #293952;
 }
-body div {
+body #adr {
   display: none;
   width: 100%;
   padding: 50px 0;
   background-color: #ECEEF2;
 }
-body div p {
+body #adr p {
   font-family: 'Quattrocento Sans', sans-serif;
   font-size: 14px;
   margin: 3% 10% 5% 6%;
