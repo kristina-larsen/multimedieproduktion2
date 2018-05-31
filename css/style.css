@@ -93,7 +93,6 @@ body header div .navi {
   right: 0;
   background-color: rgba(0, 0, 0, 0.9);
   overflow-x: hidden;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none;
   /*hvordan ser indholdet ud i hamburgermenuen*/
@@ -116,7 +115,6 @@ body header div .navi .overlayer a {
   font-size: 30px;
   color: #ffffff;
   display: block;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 body header div .navi .overlayer .linje {
@@ -175,8 +173,6 @@ body .flexbox, body .flexbox2, body .flexbox3, body .flexbox4 {
 }
 body .flexbox a, body .flexbox2 a, body .flexbox3 a, body .flexbox4 a {
   position: relative;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
   color: #293952;
   /* Selve billederne */
@@ -224,14 +220,13 @@ body hr {
   border-color: #293952;
 }
 body .instagram {
-  display: block;
-  max-width: 100%;
+  display: inline-block;
+  width: 100%;
   clear: both;
-  height: 500px;
 }
 body .instagram .instagram-media {
-  width: 20%;
-  float: left;
+  width: 45%;
+  display: inline-block;
 }
 body footer {
   width: 100%;
@@ -317,8 +312,6 @@ body footer .social .fa-linkedin-in {
   }
   body .flexbox a, body .flexbox2 a, body .flexbox3 a, body .flexbox4 a {
     position: relative;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
     /* Selve billederne */
     /* Skriften over billederne */
@@ -355,14 +348,11 @@ body footer .social .fa-linkedin-in {
     margin: 3% 10% 5% 6%;
   }
   body .instagram {
-    display: block;
     max-width: 100%;
     clear: both;
-    height: 500px;
   }
   body .instagram .instagram-media {
-    width: 20%;
-    float: left;
+    width: 17%;
   }
   body footer {
     /*Teksten i footeren */
@@ -518,8 +508,6 @@ body footer .social .fa-linkedin-in {
     height: 290px;
     width: 100%;
     background-color: white;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
     bottom: 0;
     overflow-wrap: break-word;
@@ -607,20 +595,10 @@ body footer .social .fa-linkedin-in {
     margin-left: -1325px;
   }
   body .instagram {
-<<<<<<< HEAD
-    display: block;
-=======
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
->>>>>>> 20549ba4d552a0231286e04f4ff77f523e3a4be4
-    max-width: 100%;
     clear: both;
-    height: 500px;
   }
   body .instagram .instagram-media {
-    width: 20%;
-    float: left;
+    width: 17%;
   }
   body .flexbox2 {
     margin: auto;

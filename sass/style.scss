@@ -285,17 +285,15 @@ hr {
 }
 
 .instagram {
-  display: block;
-  max-width: 100%;
+  display: inline-block;
+  width: 100%;
   clear: both;
-  height: 500px;
-
-
+  // height: auto;
 
 
 .instagram-media {
-  width: 20%;
-  float: left;
+  width: 45%;
+  display: inline-block;
 
 }
 }
@@ -448,17 +446,17 @@ body {
   }
 
   .instagram {
-    display: block;
+    // display: block;
     max-width: 100%;
     clear: both;
-    height: 500px;
+    // height: 500px;
 
 
 
 
   .instagram-media {
-    width: 20%;
-    float: left;
+    width: 17%;
+    // float: left;
 
   }
   }
@@ -742,17 +740,17 @@ h2 {
     }
 
 .instagram {
-  display: block;
-  max-width: 100%;
+  // display: block;
+  // max-width: 100%;
   clear: both;
-  height: 500px;
+  // height: 500px;
 
 
 
 
 .instagram-media {
-  width: 20%;
-  float: left;
+  width: 17%;
+  // float: left;
 
 }
 }
