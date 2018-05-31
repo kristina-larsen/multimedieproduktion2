@@ -179,7 +179,7 @@ body .flexbox a, body .flexbox2 a, body .flexbox3 a, body .flexbox4 a {
   /* Selve billederne */
   /* Skriften over billederne */
 }
-body .flexbox a .p, body .flexbox2 a .p, body .flexbox3 a .p, body .flexbox4 a .p {
+body .flexbox a .p, body .flexbox a .pe, body .flexbox2 a .p, body .flexbox2 a .pe, body .flexbox3 a .p, body .flexbox3 a .pe, body .flexbox4 a .p, body .flexbox4 a .pe {
   width: 135px;
   height: 135px;
   margin: 18px 13px 20px 13px;
@@ -216,7 +216,7 @@ body .smartknap {
   width: 100%;
   padding: 50px 0;
   text-align: center;
-  background-color: lightblue;
+  background-color: #ECEEF2;
   margin-top: 20px;
 }
 body .smartknap p {
@@ -324,7 +324,7 @@ body footer .social .fa-linkedin-in {
     /* Selve billederne */
     /* Skriften over billederne */
   }
-  body .flexbox a .p, body .flexbox2 a .p, body .flexbox3 a .p, body .flexbox4 a .p {
+  body .flexbox a .p, body .flexbox a .pe, body .flexbox2 a .p, body .flexbox2 a .pe, body .flexbox3 a .p, body .flexbox3 a .pe, body .flexbox4 a .p, body .flexbox4 a .pe {
     width: 300px;
     height: 300px;
     margin: 25px 18px;
@@ -379,7 +379,7 @@ body footer .social .fa-linkedin-in {
     /* Selve slideshowet */
     /* Boksen med billederne nederst på desktop */
     /* Selvbetjening desktop */
-    /* Boksen med billederne nederst på desktop */
+    /* Boksen med billederne øverst på desktop */
     /* Boksen med billederne nederst på desktop */
     /* Flytning og folkeregister desktop-version */
     /* Pas desktop-version */
@@ -624,7 +624,8 @@ body footer .social .fa-linkedin-in {
     margin-left: 4%;
   }
   body .flexbox3 {
-    width: 93%;
+    width: 90%;
+    text-align: center;
   }
   body .flexbox3 a {
     margin-left: 1%;
@@ -632,6 +633,11 @@ body footer .social .fa-linkedin-in {
     /*Teksten over billederne */
   }
   body .flexbox3 a .p {
+    width: 250px;
+    height: 250px;
+  }
+  body .flexbox3 a .pe {
+    margin-right: 90%;
     width: 250px;
     height: 250px;
   }
