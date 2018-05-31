@@ -22,6 +22,7 @@ div {
 
   a {
     text-decoration: none;
+    color: #293952;
     //margin: 20%;
 
       img {
@@ -224,7 +225,7 @@ nav {
 a {
   position: relative;
   display: inline-flex;
-
+  color: #293952;
   /* Selve billederne */
     .p {
         width: 135px;
@@ -737,6 +738,7 @@ h2 {
   margin: auto;
   margin-top: 3%;
   text-align: center;
+  width: 73%;
 
   a {
     //margin-left: 3%;
@@ -807,7 +809,7 @@ h2 {
   }
 }
 
-/* Flytning og folkeregister mobil-version */
+/* Flytning og folkeregister desktop-version */
 
 h2 {
   font-size: 22px;
@@ -824,6 +826,8 @@ p {
   font-size: 18px;
   margin: 3% 10% 5% 6%;
 }
+
+/* Pas desktop-version */
 
   /* Selve footeren */
   footer {
@@ -880,6 +884,11 @@ p {
           margin: 0 5%;
 
         }
+      }
+
+      .flexbox2{
+        width: 1050px;
+
       }
     }
 }
