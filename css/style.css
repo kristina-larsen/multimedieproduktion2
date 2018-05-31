@@ -93,6 +93,7 @@ body header div .navi {
   right: 0;
   background-color: rgba(0, 0, 0, 0.9);
   overflow-x: hidden;
+  -webkit-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none;
   /*hvordan ser indholdet ud i hamburgermenuen*/
@@ -115,6 +116,7 @@ body header div .navi .overlayer a {
   font-size: 30px;
   color: #ffffff;
   display: block;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 body header div .navi .overlayer .linje {
@@ -173,6 +175,8 @@ body .flexbox, body .flexbox2, body .flexbox3, body .flexbox4 {
 }
 body .flexbox a, body .flexbox2 a, body .flexbox3 a, body .flexbox4 a {
   position: relative;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
   color: #293952;
   /* Selve billederne */
@@ -198,28 +202,22 @@ body .flexbox a h2, body .flexbox2 a h2, body .flexbox3 a h2, body .flexbox4 a h
   color: #293952;
   text-align: left;
 }
-body .udvidknap {
-  width: 100%;
-  border: none;
-  background-color: white;
-  text-align: left;
-}
 body .udvidknap h2 {
   font-family: 'Palanquin Dark', sans-serif;
   font-size: 15px;
   padding-left: 6%;
   color: #293952;
 }
-body div {
-  display: none;
+body #myDIV {
   width: 100%;
   padding: 50px 0;
-  background-color: #ECEEF2;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
 }
-body div p {
+body #myDIV p {
   font-family: 'Quattrocento Sans', sans-serif;
   font-size: 14px;
-  margin: 3% 10% 5% 6%;
 }
 body hr {
   border-color: #293952;
@@ -279,7 +277,7 @@ body footer .social .fa-linkedin-in {
     /* Tekserne med farve */
     /* Forside tablet-version */
     /* Div for billederne */
-    /* Flytning og folkeregister tablet-version */
+    /* Flytning og folkeregister mobil-version */
     /* Selve footeren */
   }
   body h1 {
@@ -315,6 +313,8 @@ body footer .social .fa-linkedin-in {
   }
   body .flexbox a, body .flexbox2 a, body .flexbox3 a, body .flexbox4 a {
     position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     /* Selve billederne */
     /* Skriften over billederne */
@@ -336,11 +336,11 @@ body footer .social .fa-linkedin-in {
     font-family: 'Quattrocento Sans', sans-serif;
     position: absolute;
   }
-  body .udvidknap h2 {
+  body h2 {
     font-size: 17px;
     padding-left: 6%;
   }
-  body .udvidknap .fa-plus-circle {
+  body .fa-plus-circle {
     font-size: 21px;
     float: right;
     margin-right: 8%;
@@ -510,6 +510,8 @@ body footer .social .fa-linkedin-in {
     height: 290px;
     width: 100%;
     background-color: white;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
     bottom: 0;
     overflow-wrap: break-word;
@@ -546,7 +548,7 @@ body footer .social .fa-linkedin-in {
     margin: 0% 12%;
     /* Styring af billederne i slideshowet */
     /* Billederne i slideshowet */
-    /*Mikkel forklar her */
+    /* Billederne til venstre i slideshowet */
   }
   body .mercoverlay #slider .slides {
     display: block;
@@ -596,6 +598,8 @@ body footer .social .fa-linkedin-in {
     margin-left: -1325px;
   }
   body .instagram {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     max-width: 100%;
   }
@@ -659,20 +663,14 @@ body footer .social .fa-linkedin-in {
     margin-left: 0%;
     height: 70px;
   }
-  body .udvidknap {
-    width: 100%;
-    border: none;
-    background-color: white;
-    text-align: left;
-  }
-  body .udvidknap h2 {
+  body h2 {
     font-size: 22px;
-    padding-left: 2%;
+    padding-left: 6%;
   }
-  body .udvidknap .fa-plus-circle {
+  body .fa-plus-circle {
     font-size: 27px;
     float: right;
-    margin-right: 2%;
+    margin-right: 8%;
   }
   body p {
     font-size: 18px;
