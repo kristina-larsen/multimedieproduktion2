@@ -94,7 +94,6 @@ body header div .navi {
   right: 0;
   background-color: rgba(0, 0, 0, 0.9);
   overflow-x: hidden;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none;
   /*hvordan ser indholdet ud i hamburgermenuen*/
@@ -117,7 +116,6 @@ body header div .navi .overlayer a {
   font-size: 30px;
   color: #ffffff;
   display: block;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 body header div .navi .overlayer .linje {
@@ -176,8 +174,6 @@ body .flexbox, body .flexbox2, body .flexbox3, body .flexbox4 {
 }
 body .flexbox a, body .flexbox2 a, body .flexbox3 a, body .flexbox4 a {
   position: relative;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
   display: inline-flex;
   color: #293952;
   /* Selve billederne */
@@ -324,8 +320,6 @@ body footer .social .fa-linkedin-in {
   }
   body .flexbox a, body .flexbox2 a, body .flexbox3 a, body .flexbox4 a {
     position: relative;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
     /* Selve billederne */
     /* Skriften over billederne */
@@ -471,7 +465,7 @@ body footer .social .fa-linkedin-in {
     color: #ECEEF2;
     padding: 12px 15px;
     float: left;
-    margin-left: 3%;
+    margin-left: 1%;
     margin-top: 0%;
     font-size: 15px;
     border-radius: 15px;
@@ -519,8 +513,6 @@ body footer .social .fa-linkedin-in {
     height: 290px;
     width: 100%;
     background-color: white;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
     display: inline-flex;
     bottom: 0;
     overflow-wrap: break-word;
