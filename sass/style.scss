@@ -255,15 +255,20 @@ a {
 
 /* Flytning og folkeregister mobil-version */
 .udvidknap{
+    width: 100%;
+    border: none;
+    background-color: white;
+
     h2 {
       font-family: 'Palanquin Dark', sans-serif;
       font-size: 15px;
       padding-left: 6%;
       color: #293952;
+      text-align: left;
     }
 }
 
-    #adr{
+    .smartknap{
       display: none;
       width: 100%;
       padding: 50px 0;
