@@ -231,7 +231,7 @@ a {
     .p, .pe {
         width: 135px;
         height: 135px;
-        margin: 18px 13px 20px 13px;
+        margin: 2px;
 
       }
 
@@ -254,6 +254,35 @@ a {
   }
 }
 
+.flexbox3 {
+  margin: auto;
+  width: 430px;
+  text-align: left;
+
+  a {
+    margin: 1%;
+
+    /* Selve billederne */
+    .p {
+      width: 200px;
+      height: 200px;
+    }
+  }
+}
+
+.flexbox4 {
+  margin: auto;
+  padding: 0;
+  width: 455px;
+  text-align: left;
+
+
+  a {
+    margin: 1%;
+    padding: 0;
+    // margin-left: 2%;
+  }
+}
 /* Flytning og folkeregister mobil-version */
 .udvidknap{
     width: 100%;
@@ -399,9 +428,9 @@ body {
     }
   /* Div for billederne */
   .flexbox, .flexbox2, .flexbox3, .flexbox4 {
-    width: 90%;
-    margin-left: 6%;
-    margin-right: 5%;
+    width: 92%;
+    // margin-left: 6%;
+    // margin-right: 5%;
     margin-bottom: 5%;
 
   a {
@@ -409,7 +438,7 @@ body {
     display: inline-flex;
 
     /* Selve billederne */
-      .p, .pe {
+      .p {
           width: 300px;
           height: 300px;
           margin: 25px 18px;
@@ -431,7 +460,45 @@ body {
       }
     }
   }
+  .flexbox3 {
+    margin: auto;
+    width: 705px;
+    text-align: left;
 
+    a {
+      margin: 1%;
+
+      /* Selve billederne */
+      .p {
+        width: 300px;
+        height: 300px;
+      }
+    }
+  }
+
+  .flexbox4 {
+    margin: auto;
+    padding: 0;
+    // margin-left: 0%;
+    // margin-top: 1%;
+    width: 743px;
+    text-align: left;
+
+
+    a {
+      margin: 1%;
+      padding: 0;
+      // margin-left: 2%;
+
+      /* Selve billederne */
+      .p {
+        width: 230px;
+        height: 230px;
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
   /* Flytning og folkeregister mobil-version */
 
   h2 {
@@ -669,19 +736,19 @@ body {
               font-family: Roboto;
               color: black;
               z-index: 10;
-              margin-left: 93.5%;
+              margin-left: 95%;
             }
 
                 /* Selve slideshowet */
                 #slider {
-                  width: 780px;
+                  width: 95%;
                   height: 275px;
                   overflow: hidden;
                   margin: auto;
                   margin-top: 4px;
                   position: absolute;
                   clip: rect(10px, 1000px);
-                  margin: 0% 12%;
+                  margin: 0% 2.5%;
 
                     /* Styring af billederne i slideshowet */
                     .slides {
@@ -746,7 +813,7 @@ h2 {
     }
 
 .instagram {
-  // display: block;
+   display: inline-block;
   // max-width: 100%;
   clear: both;
   // height: 500px;
@@ -789,13 +856,12 @@ h2 {
 
 /* Boksen med billederne øverst på desktop */
 .flexbox3 {
-  // margin-left: 5%;
-  // margin-top: 3%;
-  width: 90%;
-  text-align: center;
+  margin: auto;
+  width: 922px;
+  text-align: left;
 
   a {
-    margin-left: 1%;
+    margin: 1%;
 
     /* Selve billederne */
     .p {
@@ -803,11 +869,11 @@ h2 {
       height: 250px;
     }
 
-    .pe {
-      margin-right: 90%;
-      width: 250px;
-      height: 250px;
-  }
+  //   .pe {
+  //     margin-right: 90%;
+  //     width: 250px;
+  //     height: 250px;
+  // }
 
     /*Teksten over billederne */
     h2 {
@@ -818,21 +884,20 @@ h2 {
 
 /* Boksen med billederne nederst på desktop */
 .flexbox4 {
-  margin: 0;
   padding: 0;
-  margin-left: 0%;
-  margin-top: 1%;
-  width: 100%;
+  width: 755px;
+  text-align: left;
+
 
   a {
     margin: 0;
     padding: 0;
-    margin-left: 2%;
+    margin: 1%;
 
     /* Selve billederne */
     .p {
-      width: 235px;
-      height: 235px;
+      width: 230px;
+      height: 230px;
       margin: 0;
       padding: 0;
     }
@@ -912,23 +977,47 @@ p {
 
               /* Pilen til højre */
               .control_next{
-                margin-left: 95.5%;
+                // margin-left: 95.5%;
               }
 
-        #slider{
-          width: 1040px;
-          margin: 0 5%;
-
-        }
+        // #slider{
+        //   width: 1040px;
+        //   margin: 0 5%;
+        //
+        // }
       }
 
       .flexbox2{
         width: 1050px;
 
       }
-    }
-}
 
+      .flexbox3 {
+        margin: auto;
+        width: 1258px;
+        text-align: left;
+
+        a {
+          margin: 1%;
+
+          /* Selve billederne */
+          .p {
+            width: 250px;
+            height: 250px;
+          }
+    }
+  }
+  .flexbox4 {
+    padding: 0;
+    width: 1230px;
+    text-align: left;
+
+    a{
+      margin: 0.5%;
+    }
+  }
+}
+}
 @media screen and(min-width: 1350px){
 
       body{
@@ -941,13 +1030,13 @@ p {
 
               /* Pilen til højre */
               .control_next{
-                margin-left: 96.5%;
+                 margin-left: 96%;
               }
 
-        #slider{
-          width: 1280px;
-          margin: 0 3%;
-        }
+        // #slider{
+        //   width: 1280px;
+        //   margin: 0 3%;
+        // }
       }
     }
 }
@@ -964,13 +1053,13 @@ p {
 
               /* Pilen til højre */
               .control_next{
-                margin-left: 97%;
+                 margin-left: 97%;
               }
 
-        #slider{
-          width: 1560px;
-          margin: 0 2%;
-        }
+        // #slider{
+        //   width: 1560px;
+        //   margin: 0 2%;
+        // }
       }
     }
 }
