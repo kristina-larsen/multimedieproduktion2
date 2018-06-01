@@ -288,20 +288,20 @@ hr {
   border-color: #293952;
 }
 
-.instagram {
-  display: inline-block;
-  width: 100%;
-  clear: both;
-  // height: auto;
-
-
-.instagram-media {
-  width: 45%;
-  display: inline-block;
-  margin: 2.5%;
-
-}
-}
+// .instagram {
+//   display: inline-block;
+//   width: 100%;
+//   clear: both;
+//   // height: auto;
+//
+//
+// .instagram-media {
+//   width: 40%;
+//   display: inline-block;
+//   margin: 4.5%;
+//
+// }
+// }
 
 /* Selve footeren */
   footer {
@@ -450,22 +450,23 @@ body {
     margin: 3% 10% 5% 6%;
   }
 
-  .instagram {
-    // display: block;
-    // max-width: 100%;
-    // clear: both;
-    // height: 500px;
-
-
-
-
-  .instagram-media {
-    width: 17%;
-    // float: left;
-    margin: 1.29%;
-
-  }
-  }
+  // .instagram {
+  //   // display: block;
+  //   // max-width: 100%;
+  //   // clear: both;
+  //   // height: 500px;
+  //   margin-left: 1.5%;
+  //
+  //
+  //
+  //
+  // .instagram-media {
+  //   width: 17%;
+  //   // float: left;
+  //   margin: 1%;
+  //
+  // }
+  // }
 
    /* Selve footeren */
    footer {
@@ -486,6 +487,7 @@ body {
 @media screen and (min-width: 992px){ /* Desktop-version */
 
 body {
+
   /*Tekstenerne med farve */
   h1 {
     background-color: #ECEEF2;
@@ -494,6 +496,8 @@ body {
     padding-bottom: 2%;
     text-align: center;
     margin-bottom: 0;
+    padding-left: 0;
+    margin-left: 0;
   }
 
 /* Forside desktop-version */
@@ -745,21 +749,22 @@ h2 {
       }
     }
 
-.instagram {
+/*.instagram {
   // display: block;
   // max-width: 100%;
   clear: both;
   // height: 500px;
+  margin-left: 0;
 
 
 
 
 .instagram-media {
   width: 17%;
-  margin: 1.33%;
+  /*margin: 1.33%;*/
 
-}
-}
+/*}
+}*/
 
 /* Boksen med billederne nederst på desktop */
 .flexbox2 {
