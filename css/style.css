@@ -4,12 +4,17 @@ body {
   padding: 0;
   overflow-x: hidden;
   /* Burger-menu starter her */
-  /*fjerner navigations*/
+  /* Menuen slutter her */
+  /* Fjerner navigationsmenu fra mobil-version*/
   /* Overskrifterne med baggrundsfarve */
   /* Forside mobil-version */
   /*Slideshow på forside */
   /* Div for billederne */
+  /* Instagram gitteret */
   /* Flytning og folkeregister mobil-version */
+  /* Mikkel forklar her */
+  /* Mikkel forklar her */
+  /* Linjen under teksten */
   /* Selve footeren */
 }
 body header {
@@ -22,12 +27,16 @@ body header {
 }
 body header div {
   width: 100%;
-  /*menuen slutter her*/
+  /* Logoet på desktop-version */
+  /* Søgefeltet */
+  /* Mikkel forklar her */
 }
 body header div a {
   text-decoration: none;
   color: #293952;
   width: 100%;
+  /* Logoet */
+  /* Teksten i headeren */
 }
 body header div a img {
   margin-left: 5%;
@@ -54,6 +63,7 @@ body header div form {
   clear: both;
   width: 50%;
   height: 40px;
+  /* Søgefeltet */
 }
 body header div form .search {
   border: none;
@@ -64,6 +74,8 @@ body header div form .search {
   width: 60%;
   text-align: center;
   border-radius: 15px;
+  /* Teksten i søgefeltet */
+  /* Ikonet inde i søgefeltet */
 }
 body header div form .search input {
   width: 82%;
@@ -81,6 +93,7 @@ body header div form .search button {
   background-color: #ECEEF2;
   width: 10%;
   float: right;
+  /* Søge-knappen */
 }
 body header div form .search button .submit {
   width: 50%;
@@ -92,13 +105,13 @@ body header div .navi {
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: #ECEEF2;
   overflow-x: hidden;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none;
-  /*hvordan ser indholdet ud i hamburgermenuen*/
-  /*position af x/lukke knappen i menuen*/
+  /* Hvordan ser indholdet ud i hamburgermenuen */
+  /* Position af x/lukke knappen i menuen */
 }
 body header div .navi .overlayer {
   position: relative;
@@ -107,36 +120,37 @@ body header div .navi .overlayer {
   font-size: 10%;
   margin-top: 30px;
   text-decoration: none;
-  /*hvordan linkene ser ud i overlay*/
-  /*giver farve nÃ¥r der holdes over indholdet*/
+  /* Hvordan linkene ser ud i overlay */
+  /* Mikkel forklar her */
+  /* Giver farve når der holdes over indholdet */
 }
 body header div .navi .overlayer a {
   padding: 6px;
   left: 5%;
   text-decoration: none;
   font-size: 30px;
-  color: #ffffff;
+  color: #293952;
   display: block;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 body header div .navi .overlayer .linje {
-  border-top: 2px white solid;
+  border-top: 2px #293952 solid;
   width: 100%;
   padding: 0;
   left: 0;
   margin: 2% 0;
 }
 body header div .navi .overlayer :hover :focus {
-  color: #f1f1f1;
+  color: #293952;
 }
 body header div .navi .closebut {
   position: absolute;
-  right: 5%;
+  right: 0;
   padding: 0;
   font-size: 60px;
   text-decoration: none;
-  color: #87aa44;
+  color: #293952;
 }
 body header div span {
   display: block;
@@ -186,7 +200,7 @@ body .flexbox a, body .flexbox2 a, body .flexbox3 a, body .flexbox4 a {
 body .flexbox a .p, body .flexbox a .pe, body .flexbox2 a .p, body .flexbox2 a .pe, body .flexbox3 a .p, body .flexbox3 a .pe, body .flexbox4 a .p, body .flexbox4 a .pe {
   width: 135px;
   height: 135px;
-  margin: 2px;
+  margin: 15px;
 }
 body .flexbox a h2, body .flexbox2 a h2, body .flexbox3 a h2, body .flexbox4 a h2 {
   background-color: rgba(255, 255, 255, 0.7);
@@ -203,33 +217,34 @@ body .flexbox a h2, body .flexbox2 a h2, body .flexbox3 a h2, body .flexbox4 a h
   color: #293952;
   text-align: left;
 }
+body .instagram {
+  display: inline-block;
+  width: 100%;
+  clear: both;
+}
+body .instagram .instagram-media {
+  width: 45%;
+  display: inline-block;
+  margin: 2.2%;
+}
 body .flexbox3 {
-  margin: auto;
-  width: 430px;
   text-align: left;
+  margin-left: 6%;
 }
-body .flexbox3 a {
-  margin: 1%;
-  /* Selve billederne */
-}
-body .flexbox3 a .p {
-  width: 200px;
-  height: 200px;
+body .flexbox2 {
+  text-align: left;
+  margin-left: 6%;
+  margin-top: 2%;
 }
 body .flexbox4 {
-  margin: auto;
-  padding: 0;
-  width: 455px;
   text-align: left;
-}
-body .flexbox4 a {
-  margin: 1%;
-  padding: 0;
+  margin-left: 6%;
 }
 body .udvidknap {
   width: 100%;
   border: none;
   background-color: white;
+  /* Mikkel forklar her */
 }
 body .udvidknap h2 {
   font-family: 'Palanquin Dark', sans-serif;
@@ -252,16 +267,6 @@ body .smartknap p {
 }
 body hr {
   border-color: #293952;
-}
-body .instagram {
-  display: inline-block;
-  width: 100%;
-  clear: both;
-}
-body .instagram .instagram-media {
-  width: 45%;
-  display: inline-block;
-  margin: 2.2%;
 }
 body footer {
   width: 100%;
@@ -311,7 +316,7 @@ body footer .social .fa-linkedin-in {
     /* Tekserne med farve */
     /* Forside tablet-version */
     /* Div for billederne */
-    /* Flytning og folkeregister mobil-version */
+    /* Flytning og folkeregister ipad-version */
     /* Selve footeren */
   }
   body h1 {
@@ -327,6 +332,7 @@ body footer .social .fa-linkedin-in {
   body header div a h3 {
     font-size: 18px;
     padding-top: 4.5%;
+    padding-left: 150px;
   }
   body header div form {
     margin-top: -8%;
@@ -340,7 +346,7 @@ body footer .social .fa-linkedin-in {
     margin-top: -4%;
   }
   body .flexbox, body .flexbox2, body .flexbox3, body .flexbox4 {
-    width: 92%;
+    width: 95%;
     margin-bottom: 5%;
   }
   body .flexbox a, body .flexbox2 a, body .flexbox3 a, body .flexbox4 a {
@@ -369,42 +375,8 @@ body footer .social .fa-linkedin-in {
     position: absolute;
     color: #293952;
   }
-  body .flexbox3 {
-    margin: auto;
-    width: 705px;
-    text-align: left;
-  }
-  body .flexbox3 a {
-    margin: 1%;
-    /* Selve billederne */
-  }
-  body .flexbox3 a .p {
-    width: 300px;
-    height: 300px;
-  }
-  body .flexbox4 {
-    margin: auto;
-    padding: 0;
-    width: 743px;
-    text-align: left;
-  }
-  body .flexbox4 a {
-    margin: 1%;
-    padding: 0;
-    /* Selve billederne */
-  }
-  body .flexbox4 a .p {
-    width: 230px;
-    height: 230px;
-    margin: 0;
-    padding: 0;
-  }
-  body h2 {
-    font-size: 17px;
-    padding-left: 6%;
-  }
   body .fa-plus-circle {
-    font-size: 21px;
+    font-size: 23px;
     float: right;
     margin-right: 8%;
   }
@@ -426,7 +398,7 @@ body footer .social .fa-linkedin-in {
 @media screen and (min-width: 992px) {
   /* Desktop-version */
   body {
-    /*Tekstenerne med farve */
+    /* Teksterne med farve */
     /* Forside desktop-version */
     /* Boksen med billederne */
     /* Selve slideshowet */
@@ -435,7 +407,6 @@ body footer .social .fa-linkedin-in {
     /* Boksen med billederne øverst på desktop */
     /* Boksen med billederne nederst på desktop */
     /* Flytning og folkeregister desktop-version */
-    /* Pas desktop-version */
     /* Selve footeren */
   }
   body h1 {
@@ -450,6 +421,10 @@ body footer .social .fa-linkedin-in {
   }
   body header {
     height: auto;
+    /* Navigationen på siden */
+  }
+  body header div {
+    /* Fjerner burger-menuen */
   }
   body header div .logo {
     display: none;
@@ -662,8 +637,7 @@ body footer .social .fa-linkedin-in {
     margin-left: 0;
   }
   body .instagram .instagram-media {
-    width: 17%;
-    /*margin: 1.33%;*/
+    width: 15%;
   }
   body .flexbox2 {
     margin: auto;
@@ -690,7 +664,7 @@ body footer .social .fa-linkedin-in {
   body .flexbox3 a {
     margin: 1%;
     /* Selve billederne */
-    /*Teksten over billederne */
+    /* Teksten over billederne */
   }
   body .flexbox3 a .p {
     width: 250px;
@@ -701,8 +675,11 @@ body footer .social .fa-linkedin-in {
   }
   body .flexbox4 {
     padding: 0;
-    width: 755px;
+    width: 1200px;
     text-align: left;
+    margin-top: 1%;
+    margin-bottom: 0;
+    margin-left: 4.5%;
   }
   body .flexbox4 a {
     margin: 0;
@@ -721,16 +698,19 @@ body footer .social .fa-linkedin-in {
     margin-left: 0%;
     height: 70px;
   }
-  body h2 {
+  body .udvidknap {
+    height: 100px;
+  }
+  body .udvidknap h2 {
     font-size: 22px;
     padding-left: 6%;
   }
-  body .fa-plus-circle {
+  body .udvidknap .fa-plus-circle {
     font-size: 27px;
     float: right;
     margin-right: 8%;
   }
-  body p {
+  body .udvidknap p {
     font-size: 18px;
     margin: 3% 10% 5% 6%;
   }
@@ -761,9 +741,6 @@ body footer .social .fa-linkedin-in {
   }
 }
 @media screen and (min-width: 1100px) {
-  body .mercoverlay {
-    /* Pilen til højre */
-  }
   body .flexbox2 {
     width: 1050px;
   }
@@ -774,7 +751,6 @@ body footer .social .fa-linkedin-in {
   }
   body .flexbox3 a {
     margin: 1%;
-    /* Selve billederne */
   }
   body .flexbox3 a .p {
     width: 250px;
@@ -790,17 +766,11 @@ body footer .social .fa-linkedin-in {
   }
 }
 @media screen and (min-width: 1350px) {
-  body .mercoverlay {
-    /* Pilen til højre */
-  }
   body .mercoverlay .control_next {
     margin-left: 96%;
   }
 }
 @media screen and (min-width: 1610px) {
-  body .mercoverlay {
-    /* Pilen til højre */
-  }
   body .mercoverlay .control_prev {
     margin-left: 0.5%;
   }
