@@ -239,19 +239,6 @@ a {
   }
 }
 
-/* Instagram gitteret */
-.instagram {
-  display: inline-block;
-  width: 100%;
-  clear: both;
-
-.instagram-media {
-  width: 45%;
-  display: inline-block;
-  margin: 2.2%;
- }
-}
-
 .flexbox3 {
   text-align: left;
   // margin-left: 6%;
@@ -266,6 +253,11 @@ a {
 .flexbox4 {
   text-align: left;
   // margin-left: 6%;
+ }
+
+ .instagram{
+   clear: both;
+   height: 600px;
  }
 
 /* Flytning og folkeregister mobil-version */
@@ -477,6 +469,10 @@ body {
     font-size: 16px;
     margin: 3% 10% 5% 6%;
   }
+  .instagram{
+    clear: both;
+    height: 380px;
+  }
 
    /* Selve footeren */
    footer {
@@ -505,7 +501,7 @@ body {
     padding-top: 2%;
     padding-bottom: 2%;
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 5px;
     padding-left: 0;
     margin-left: 0;
   }
@@ -757,15 +753,10 @@ h2 {
       }
     }
 
-.instagram {
-  display: inline-block;
-  clear: both;
-  margin-left: 0;
-
-.instagram-media {
-  width: 15%;
- }
-}
+    .instagram{
+      clear: both;
+      height: 355px;
+    }
 
 /* Boksen med billederne nederst på desktop */
 .flexbox2 {

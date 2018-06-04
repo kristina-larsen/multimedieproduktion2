@@ -10,7 +10,6 @@ body {
   /* Forside mobil-version */
   /*Slideshow på forside */
   /* Div for billederne */
-  /* Instagram gitteret */
   /* Flytning og folkeregister mobil-version */
   /* Mikkel forklar her */
   /* Mikkel forklar her */
@@ -217,16 +216,6 @@ body .flexbox a h2, body .flexbox2 a h2, body .flexbox3 a h2, body .flexbox4 a h
   color: #293952;
   text-align: left;
 }
-body .instagram {
-  display: inline-block;
-  width: 100%;
-  clear: both;
-}
-body .instagram .instagram-media {
-  width: 45%;
-  display: inline-block;
-  margin: 2.2%;
-}
 body .flexbox3 {
   text-align: left;
 }
@@ -236,6 +225,10 @@ body .flexbox2 {
 }
 body .flexbox4 {
   text-align: left;
+}
+body .instagram {
+  clear: both;
+  height: 600px;
 }
 body .udvidknap {
   width: 100%;
@@ -407,6 +400,10 @@ body footer .social .fa-linkedin-in {
     font-size: 16px;
     margin: 3% 10% 5% 6%;
   }
+  body .instagram {
+    clear: both;
+    height: 380px;
+  }
   body footer {
     /*Teksten i footeren */
   }
@@ -438,7 +435,7 @@ body footer .social .fa-linkedin-in {
     padding-top: 2%;
     padding-bottom: 2%;
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 5px;
     padding-left: 0;
     margin-left: 0;
   }
@@ -655,12 +652,8 @@ body footer .social .fa-linkedin-in {
     margin-left: -1325px;
   }
   body .instagram {
-    display: inline-block;
     clear: both;
-    margin-left: 0;
-  }
-  body .instagram .instagram-media {
-    width: 15%;
+    height: 355px;
   }
   body .flexbox2 {
     margin: auto;
