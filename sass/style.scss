@@ -97,7 +97,7 @@ div {
 
 /* Mikkel forklar her */
 .navi {
-  height: 30%;
+  height: 35%;
   width: 0;
   position: fixed;
   z-index: 1;
@@ -119,10 +119,10 @@ div {
 
          /* Hvordan linkene ser ud i overlay */
          a {
-          padding: 9px;
+          padding: 8px;
           left: 5%;
           text-decoration: none;
-          font-size: 25px;
+          font-size: 22px;
           color: #293952;
           display: block;
           transition: 0.3s;
@@ -147,7 +147,7 @@ div {
     /* Position af x/lukke knappen i menuen */
     .closebut {
       position: absolute;
-      right: 0%;
+      right: 3%;
       padding: 0;
       font-size: 60px;
       text-decoration: none;
@@ -203,7 +203,7 @@ nav {
 
 /* Div for billederne */
 .flexbox, .flexbox2, .flexbox3, .flexbox4 {
-  width: 90%;
+  width: 98%;
   margin: auto;
   text-align: center;
 

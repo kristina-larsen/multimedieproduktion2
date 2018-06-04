@@ -98,7 +98,7 @@ body header div form .search button .submit {
   width: 50%;
 }
 body header div .navi {
-  height: 30%;
+  height: 35%;
   width: 0;
   position: fixed;
   z-index: 1;
@@ -124,10 +124,10 @@ body header div .navi .overlayer {
   /* Giver farve når der holdes over indholdet */
 }
 body header div .navi .overlayer a {
-  padding: 9px;
+  padding: 8px;
   left: 5%;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 22px;
   color: #293952;
   display: block;
   -webkit-transition: 0.3s;
@@ -146,7 +146,7 @@ body header div .navi .overlayer :hover :focus {
 }
 body header div .navi .closebut {
   position: absolute;
-  right: 0%;
+  right: 3%;
   padding: 0;
   font-size: 60px;
   text-decoration: none;
@@ -184,7 +184,7 @@ body main {
   margin: auto;
 }
 body .flexbox, body .flexbox2, body .flexbox3, body .flexbox4 {
-  width: 90%;
+  width: 98%;
   margin: auto;
   text-align: center;
 }
