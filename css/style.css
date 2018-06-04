@@ -238,7 +238,6 @@ body .flexbox2 {
 }
 body .flexbox4 {
   text-align: left;
-  margin-left: 6%;
 }
 body .udvidknap {
   width: 100%;
@@ -679,7 +678,6 @@ body footer .social .fa-linkedin-in {
     text-align: left;
     margin-top: 1%;
     margin-bottom: 0;
-    margin-left: 4.5%;
   }
   body .flexbox4 a {
     margin: 0;
