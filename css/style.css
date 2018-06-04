@@ -183,7 +183,7 @@ body main {
   margin: auto;
 }
 body .flexbox, body .flexbox2, body .flexbox3, body .flexbox4 {
-  width: 98%;
+  width: 93%;
   margin: auto;
   text-align: center;
 }
@@ -229,7 +229,7 @@ body .flexbox4 {
 }
 body .instagram {
   clear: both;
-  height: 730px;
+  height: 700px;
   padding-left: 9.5%;
 }
 body .udvidknap {
@@ -388,11 +388,25 @@ body footer .social .fa-linkedin-in {
     display: -ms-inline-flexbox;
     display: inline-flex;
     /* Selve billederne */
+    /* Skriften over billederne */
   }
   body .flexbox2 a .p {
     width: 200px;
     height: 200px;
     margin: 25px 18px;
+  }
+  body .flexbox2 a h2 {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 60%;
+    height: 27%;
+    padding-top: 12%;
+    padding-left: 8%;
+    padding-right: 1%;
+    margin: 31% 4.5%;
+    font-size: 20px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    position: absolute;
+    color: #293952;
   }
   body .fa-plus-circle {
     font-size: 23px;
