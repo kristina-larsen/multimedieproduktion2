@@ -229,11 +229,9 @@ body .instagram .instagram-media {
 }
 body .flexbox3 {
   text-align: left;
-  margin-left: 6%;
 }
 body .flexbox2 {
   text-align: left;
-  margin-left: 6%;
   margin-top: 2%;
 }
 body .flexbox4 {
@@ -354,11 +352,12 @@ body footer .social .fa-linkedin-in {
     font-size: 200%;
     margin-top: -4%;
   }
-  body .flexbox, body .flexbox2, body .flexbox3, body .flexbox4 {
-    width: 95%;
+  body .flexbox, body .flexbox3, body .flexbox4 {
+    width: 720px;
     margin-bottom: 5%;
+    text-align: left;
   }
-  body .flexbox a, body .flexbox2 a, body .flexbox3 a, body .flexbox4 a {
+  body .flexbox a, body .flexbox3 a, body .flexbox4 a {
     position: relative;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -366,12 +365,12 @@ body footer .social .fa-linkedin-in {
     /* Selve billederne */
     /* Skriften over billederne */
   }
-  body .flexbox a .p, body .flexbox2 a .p, body .flexbox3 a .p, body .flexbox4 a .p {
-    width: 300px;
-    height: 300px;
+  body .flexbox a .p, body .flexbox3 a .p, body .flexbox4 a .p {
+    width: 200px;
+    height: 200px;
     margin: 25px 18px;
   }
-  body .flexbox a h2, body .flexbox2 a h2, body .flexbox3 a h2, body .flexbox4 a h2 {
+  body .flexbox a h2, body .flexbox3 a h2, body .flexbox4 a h2 {
     background-color: rgba(255, 255, 255, 0.7);
     width: 60%;
     height: 27%;
@@ -379,10 +378,25 @@ body footer .social .fa-linkedin-in {
     padding-left: 8%;
     padding-right: 1%;
     margin: 31% 4.5%;
-    font-size: 23px;
+    font-size: 20px;
     font-family: 'Quattrocento Sans', sans-serif;
     position: absolute;
     color: #293952;
+  }
+  body .flexbox2 {
+    text-align: center;
+  }
+  body .flexbox2 a {
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    /* Selve billederne */
+  }
+  body .flexbox2 a .p {
+    width: 200px;
+    height: 200px;
+    margin: 25px 18px;
   }
   body .fa-plus-circle {
     font-size: 23px;

@@ -254,12 +254,12 @@ a {
 
 .flexbox3 {
   text-align: left;
-  margin-left: 6%;
+  // margin-left: 6%;
  }
 
  .flexbox2 {
    text-align: left;
-   margin-left: 6%;
+   // margin-left: 6%;
    margin-top: 2%;
  }
 
@@ -417,9 +417,10 @@ body {
     }
 
   /* Div for billederne */
-  .flexbox, .flexbox2, .flexbox3, .flexbox4 {
-    width: 95%;
+  .flexbox, .flexbox3, .flexbox4 {
+    width: 720px;
     margin-bottom: 5%;
+    text-align: left;
 
   a {
     position: relative;
@@ -427,8 +428,8 @@ body {
 
     /* Selve billederne */
       .p {
-          width: 300px;
-          height: 300px;
+          width: 200px;
+          height: 200px;
           margin: 25px 18px;
         }
 
@@ -441,7 +442,7 @@ body {
         padding-left: 8%;
         padding-right: 1%;
         margin: 31% 4.5%;
-        font-size: 23px;
+        font-size: 20px;
         font-family: 'Quattrocento Sans', sans-serif;
         position: absolute;
         color: #293952;
@@ -449,6 +450,21 @@ body {
     }
   }
 
+  .flexbox2{
+    text-align: center;
+
+    a {
+      position: relative;
+      display: inline-flex;
+
+      /* Selve billederne */
+        .p {
+            width: 200px;
+            height: 200px;
+            margin: 25px 18px;
+          }
+        }
+      }
   /* Flytning og folkeregister ipad-version */
 
   .fa-plus-circle {
