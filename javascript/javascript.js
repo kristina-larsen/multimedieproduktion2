@@ -1,6 +1,7 @@
 //Javascript/jqeury
 
-
+// Burger menu, for den til at komme frem ved tryk på span(burgeren)
+// og væk igen ved tryk på krydset
 function openNav(){
   document.getElementById("mynav").style.width = "50%";
 }
@@ -11,16 +12,16 @@ function closeNav(){ /*javascript til at lukke menuen når der trykkes på x */
 
 $( document ).ready(function() {
 
-  var width = 260;
-  var animationSpeed = 500;
+  var width = 260;  // størrelsen på billederne, i pixels
+  var animationSpeed = 500;  //hastigheden de rykker sig ved
   var currentSlide = 1;
 
   var $slider = $('#slider');
   var $slideContainer = $slider.find('.slides');
   var $slides = $slideContainer.find('.slide');
 
-  // var control_next = $('control_next');
 
+  // Styre hvad der sker nå der trykkes på pilen til højre
   $('.control_next').click(function () {
     $slideContainer.animate({'margin-left': '-='+width}, animationSpeed, function () {
       currentSlide++;
@@ -30,7 +31,7 @@ $( document ).ready(function() {
         }
       });
     });
-
+    // Styre hvad der sker ved tryk på pilen til venstre
   $('.control_prev').click(function () {
     $slideContainer.animate({'margin-left': '+='+width}, animationSpeed, function () {
       currentSlide--;
@@ -42,7 +43,7 @@ $( document ).ready(function() {
     });
 
 });
-
+// Alle under her styre nederste lag knappen, med vis, ikke vis,
 function adresse() {
 var x = document.getElementById("adr");
 if (x.style.display !== "block") {
