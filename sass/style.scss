@@ -20,7 +20,6 @@ div {
   a {
     text-decoration: none;
     color: #293952;
-    // width: 100%;
 
       /* Logoet */
       img {
@@ -130,15 +129,6 @@ dog skal width skrives i javascript koden */
           border-bottom: 1px solid;
         }
 
-        /* Mikkel forklar her */
-        // .linje {
-        //   border-top: 2px #293952 solid;
-        //   width: 100%;
-        //   padding: 0;
-        //   left: 0;
-        //   margin: 2% 0;
-        // }
-
           /* Giver farve når der holdes over indholdet */
           :hover :focus{
             color: #293952;
@@ -242,7 +232,6 @@ a {
 
 .flexbox3 {
   text-align: left;
-  // margin-left: 6%;
  }
 
  .flexbox2 {
@@ -253,7 +242,6 @@ a {
 
 .flexbox4 {
   text-align: left;
-  // margin-left: 6%;
  }
 
  .instagram {
@@ -530,15 +518,15 @@ body {
     height: auto;
 
     div {
-
+// Fjener logo til mobil og ipad
       .logo {
         display: none;
       }
-
+// Fjerne teksten over søge felt i mobil og ipad
       .tekst {
         display: none;
       }
-
+// Viser det andet logo til desktop
       .desktoplogo {
         display: block;
       }
@@ -560,7 +548,7 @@ body {
           text-decoration: none;
         }
        }
-
+       //søge feltet og søgknap
         form {
           clear: right;
           width: 80%;
@@ -991,6 +979,8 @@ p {
             }
            }
 
+
+// Dette media screen styre at siden ikke bliver større end 1920px i bredden
 @media screen and(min-width: 1920px){
 
     body {
@@ -999,6 +989,7 @@ p {
 
     .mercoverlay {
 
+// Maks størrelse på slideshowets bredde
       #slider {
         width: 1820px;
       }
