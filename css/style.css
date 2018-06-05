@@ -11,8 +11,8 @@ body {
   /*Slideshow på forside */
   /* Div for billederne */
   /* Flytning og folkeregister mobil-version */
-  /* Mikkel forklar her */
-  /* Mikkel forklar her */
+  /* Det er hvordan selve knappen ser ud som man klikker på i det nederste lag */
+  /* dette er den div som kommer frem ved tryk på knappen på nederste lag*/
   /* Linjen under teksten */
   /* Selve footeren */
 }
@@ -28,7 +28,8 @@ body header div {
   width: 100%;
   /* Logoet på desktop-version */
   /* Søgefeltet */
-  /* Mikkel forklar her */
+  /* Er div som bestemmer hvordan selve menuen som kommer fram ser ud og hvor hurtigt den kommer frem,
+  dog skal width skrives i javascript koden */
 }
 body header div a {
   text-decoration: none;
@@ -133,13 +134,6 @@ body header div .navi .overlayer a {
   transition: 0.3s;
   border-bottom: 1px solid;
 }
-body header div .navi .overlayer .linje {
-  border-top: 2px #293952 solid;
-  width: 100%;
-  padding: 0;
-  left: 0;
-  margin: 2% 0;
-}
 body header div .navi .overlayer :hover :focus {
   color: #293952;
 }
@@ -237,7 +231,7 @@ body .udvidknap {
   border: none;
   background-color: white;
   cursor: pointer;
-  /* Mikkel forklar her */
+  /* Dette er hvordan skriften i knappen ser ud */
 }
 body .udvidknap h2 {
   font-family: 'Palanquin Dark', sans-serif;
