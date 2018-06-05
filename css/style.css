@@ -222,7 +222,7 @@ body .flexbox4 {
 }
 body .instagram {
   clear: both;
-  height: 700px;
+  height: 715px;
   padding-left: 9.5%;
 }
 body .udvidknap {
@@ -412,8 +412,8 @@ body footer .social .fa-linkedin-in {
   }
   body .instagram {
     clear: both;
-    height: 370px;
-    padding-left: 8%;
+    height: 350px;
+    padding-left: 9%;
   }
   body footer {
     /*Teksten i footeren */
@@ -664,7 +664,7 @@ body footer .social .fa-linkedin-in {
   }
   body .instagram {
     clear: both;
-    height: 450px;
+    height: 435px;
     padding-left: 14%;
   }
   body .flexbox2 {
