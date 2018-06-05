@@ -95,7 +95,8 @@ div {
          }
        }
 
-/* Mikkel forklar her */
+/* Er div som bestemmer hvordan selve menuen som kommer fram ser ud og hvor hurtigt den kommer frem,
+dog skal width skrives i javascript koden */
 .navi {
   height: 35%;
   width: 0;
@@ -130,13 +131,13 @@ div {
         }
 
         /* Mikkel forklar her */
-        .linje {
-          border-top: 2px #293952 solid;
-          width: 100%;
-          padding: 0;
-          left: 0;
-          margin: 2% 0;
-        }
+        // .linje {
+        //   border-top: 2px #293952 solid;
+        //   width: 100%;
+        //   padding: 0;
+        //   left: 0;
+        //   margin: 2% 0;
+        // }
 
           /* Giver farve når der holdes over indholdet */
           :hover :focus{
@@ -263,14 +264,14 @@ a {
 
 /* Flytning og folkeregister mobil-version */
 
-/* Mikkel forklar her */
+/* Det er hvordan selve knappen ser ud som man klikker på i det nederste lag */
 .udvidknap {
     width: 100%;
     border: none;
     background-color: white;
     cursor: pointer;
 
-    /* Mikkel forklar her */
+    /* Dette er hvordan skriften i knappen ser ud */
     h2 {
       font-family: 'Palanquin Dark', sans-serif;
       font-size: 15px;
@@ -280,7 +281,7 @@ a {
     }
    }
 
-    /* Mikkel forklar her */
+    /* dette er den div som kommer frem ved tryk på knappen på nederste lag*/
     .smartknap {
       display: none;
       width: 100%;
