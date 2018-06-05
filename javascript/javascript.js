@@ -13,7 +13,11 @@ function closeNav(){ /*javascript til at lukke menuen når der trykkes på x */
 $( document ).ready(function() {
 
   var width = 260;  // Størrelsen på billederne, i pixels
+<<<<<<< HEAD
+  var animationSpeed = 500;  // Hastigheden de rykker sig ved
+=======
   var animationSpeed = 500;  // Hastigheden de rykker sig ved, i milisekunder
+>>>>>>> 76c457a517502178c382c5c2c885ac38e23ba71b
   var currentSlide = 1;
 
   var $slider = $('#slider');
