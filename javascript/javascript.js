@@ -20,7 +20,6 @@ $( document ).ready(function() {
   var $slideContainer = $slider.find('.slides');
   var $slides = $slideContainer.find('.slide');
 
-
   // Styre hvad der sker nå der trykkes på pilen til højre
   $('.control_next').click(function () {
     $slideContainer.animate({'margin-left': '-='+width}, animationSpeed, function () {
