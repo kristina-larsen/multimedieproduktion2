@@ -796,6 +796,11 @@ body footer .social .fa-linkedin-in {
   body .mercoverlay .control_next {
     margin-left: 96%;
   }
+  body .instagram {
+    clear: both;
+    height: 450px;
+    padding-left: 23%;
+  }
 }
 @media screen and (min-width: 1610px) {
   body .mercoverlay .control_prev {
@@ -803,6 +808,11 @@ body footer .social .fa-linkedin-in {
   }
   body .mercoverlay .control_next {
     margin-left: 97%;
+  }
+  body .instagram {
+    clear: both;
+    height: 450px;
+    padding-left: 25%;
   }
 }
 @media screen and (min-width: 1920px) {
@@ -815,5 +825,10 @@ body footer .social .fa-linkedin-in {
   }
   body footer {
     max-width: 1920px;
+  }
+  body .instagram {
+    clear: both;
+    height: 450px;
+    padding-left: 465px;
   }
 }
