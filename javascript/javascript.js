@@ -8,12 +8,12 @@ function openNav(){
 function closeNav(){ /*javascript til at lukke menuen når der trykkes på x */
   document.getElementById("mynav").style.width = "0%";
 }
-//  slider
+//  Slider
 
 $( document ).ready(function() {
 
-  var width = 260;  // størrelsen på billederne, i pixels
-  var animationSpeed = 500;  //hastigheden de rykker sig ved
+  var width = 260;  // Størrelsen på billederne, i pixels
+  var animationSpeed = 500;  // Hastigheden de rykker sig ved
   var currentSlide = 1;
 
   var $slider = $('#slider');

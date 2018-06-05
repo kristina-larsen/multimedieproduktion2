@@ -108,7 +108,7 @@ dog skal width skrives i javascript koden */
   transition: 0.5s;
   text-decoration: none;
 
-/* Hvordan ser indholdet ud i hamburgermenuen */
+    /* Hvordan ser indholdet ud i hamburgermenuen */
     .overlayer{
       position: relative;
       top: 5%;
@@ -159,7 +159,7 @@ span {
 /* Menuen slutter her */
 
 
-/* Fjerner navigationsmenu fra mobil-version*/
+/* Fjerner navigationsmenu fra mobil-version */
 nav {
   display: none;
 }
@@ -202,7 +202,6 @@ a {
   position: relative;
   display: inline-flex;
   color: #293952;
-
 
     /* Selve billederne */
     .p, .pe {
@@ -269,7 +268,7 @@ a {
     }
    }
 
-    /* dette er den div som kommer frem ved tryk på knappen på nederste lag*/
+    /* Dette er den div som kommer frem ved tryk på knappen på nederste lag */
     .smartknap {
       display: none;
       width: 100%;
@@ -289,7 +288,7 @@ hr {
   border-color: #293952;
 }
 
-/* Selve footeren */
+  /* Selve footeren */
   footer {
     width: 100%;
     height: 200px;
@@ -297,7 +296,7 @@ hr {
     position: absolute;
     margin-top: 3%;
 
-  /* Teksten i footeren */
+    /* Teksten i footeren */
     .footertext {
       margin-top: 14%;
       width: 55%;
@@ -312,7 +311,7 @@ hr {
        }
       }
 
-     /*De to logoer */
+      /*De to logoer */
       .social {
         float: right;
         margin-right: 10%;
@@ -377,6 +376,7 @@ body {
               font-size: 35px;
             }
           }
+
           .closebut{
             right: 5%;
           }
@@ -518,20 +518,23 @@ body {
     height: auto;
 
     div {
-// Fjener logo til mobil og ipad
+
+      // Fjener logo til mobil og ipad
       .logo {
         display: none;
       }
-// Fjerne teksten over søge felt i mobil og ipad
+
+      // Fjerne teksten over søge felt i mobil og ipad
       .tekst {
         display: none;
       }
-// Viser det andet logo til desktop
+
+      // Viser det andet logo til desktop
       .desktoplogo {
         display: block;
       }
 
-/* Fjerner burger-menuen */
+    /* Fjerner burger-menuen */
     span {
       display: none;
     }
@@ -548,7 +551,8 @@ body {
           text-decoration: none;
         }
        }
-       //søge feltet og søgknap
+
+       // Søge feltet og søgknap
         form {
           clear: right;
           width: 80%;
@@ -942,6 +946,7 @@ p {
   }
  }
 }
+
 @media screen and(min-width: 1350px){
 
       body {
@@ -978,7 +983,6 @@ p {
              }
             }
            }
-
 
 // Dette media screen styre at siden ikke bliver større end 1920px i bredden
 @media screen and(min-width: 1920px){
